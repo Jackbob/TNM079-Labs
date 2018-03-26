@@ -251,9 +251,33 @@ void HalfEdgeMesh::Validate() {
 std::vector<size_t>
 HalfEdgeMesh::FindNeighborVertices(size_t vertexIndex) const {
     // Collected vertices, sorted counter clockwise!
+    std::vector<size_t> neighborFaces = FindNeighborFaces(vertexIndex);
     std::vector<size_t> oneRing;
 
-    // Add your code here
+    size_t currVert=0;
+
+    // pick next counter clock wise vert
+    size_t v1,v2,v3;
+    getFaceVertices(neighborFaces.at(0), v1,v2,v3);
+    if (v1 == vertexIndex)
+        currVert = v2;
+    if (v2 == vertexIndex)
+        currVert = v3;
+    if (v3 == vertexIndex)
+        currVert = v1;
+    oneRing.push_back(currVert);
+
+    // collect one ring vertices
+    for (size_t i = 0; i < neighborFaces.size() - 1; i++) {
+        getFaceVertices(i, v1,v2,v3);
+        if (v1 == currVert)
+            currVert = v2;
+        else if (v2 == currVert)
+            currVert = v3;
+        else if (v3 == currVert)
+            currVert = v1;
+        oneRing.push_back(currVert);
+    }
 
     return oneRing;
 }
@@ -279,7 +303,7 @@ std::vector<size_t> HalfEdgeMesh::FindNeighborFaces(size_t vertexIndex) const {
         if( e(edge1).vert == vertexIndex ||
             e(edge2).vert == vertexIndex ||
             e(edge3).vert == vertexIndex) {
-            foundFaces.push_back(static_cast<unsigned long &&>(iter - mFaces.begin()));
+            foundFaces.push_back(iter - mFaces.begin());
         }
         iter++;
     }
@@ -322,7 +346,7 @@ std::vector<size_t> HalfEdgeMesh::FindNeighborFaces(size_t vertexIndex) const {
             }
         }
     }
-
+    
     // Add your code here
     return foundFaces;
 }

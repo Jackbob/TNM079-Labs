@@ -22,7 +22,7 @@ CMakeFiles/MoA.dir/Decimation/DecimationMesh.cpp.o
  .././Util/ObjIO.h
  .././Util/Util.h
  .././Util/trackball.h
- /home/jakob/Documents/University/TNM079/tnm079-student/Decimation/DecimationMesh.cpp
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Decimation/DecimationMesh.cpp
  /usr/include/wx-3.0/wx/accel.h
  /usr/include/wx-3.0/wx/access.h
  /usr/include/wx-3.0/wx/affinematrix2d.h
@@ -282,8 +282,8 @@ CMakeFiles/MoA.dir/Decimation/QuadricDecimationMesh.cpp.o
  .././Util/Heap.h
  .././Util/ObjIO.h
  .././Util/Util.h
- /home/jakob/Documents/University/TNM079/tnm079-student/Decimation/QuadricDecimationMesh.cpp
- /home/jakob/Documents/University/TNM079/tnm079-student/Decimation/QuadricDecimationMesh.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Decimation/QuadricDecimationMesh.cpp
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Decimation/QuadricDecimationMesh.h
 CMakeFiles/MoA.dir/Decimation/SimpleDecimationMesh.cpp.o
  .././Decimation/DecimationInterface.h
  .././Decimation/DecimationMesh.h
@@ -301,8 +301,8 @@ CMakeFiles/MoA.dir/Decimation/SimpleDecimationMesh.cpp.o
  .././Util/Heap.h
  .././Util/ObjIO.h
  .././Util/Util.h
- /home/jakob/Documents/University/TNM079/tnm079-student/Decimation/SimpleDecimationMesh.cpp
- /home/jakob/Documents/University/TNM079/tnm079-student/Decimation/SimpleDecimationMesh.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Decimation/SimpleDecimationMesh.cpp
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Decimation/SimpleDecimationMesh.h
 CMakeFiles/MoA.dir/Fluid/FluidSolver.cpp.o
  .././GUI/GLObject.h
  .././Geometry/Bbox.h
@@ -328,8 +328,8 @@ CMakeFiles/MoA.dir/Fluid/FluidSolver.cpp.o
  .././Util/JetColorMap.h
  .././Util/MarchingCubes.h
  .././Util/Util.h
- /home/jakob/Documents/University/TNM079/tnm079-student/Fluid/FluidSolver.cpp
- /home/jakob/Documents/University/TNM079/tnm079-student/Fluid/FluidSolver.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Fluid/FluidSolver.cpp
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Fluid/FluidSolver.h
 CMakeFiles/MoA.dir/GUI/FluidVoxelCutPlane.cpp.o
  .././Fluid/FluidSolver.h
  .././GUI/GLObject.h
@@ -356,8 +356,8 @@ CMakeFiles/MoA.dir/GUI/FluidVoxelCutPlane.cpp.o
  .././Util/JetColorMap.h
  .././Util/MarchingCubes.h
  .././Util/Util.h
- /home/jakob/Documents/University/TNM079/tnm079-student/GUI/FluidVoxelCutPlane.cpp
- /home/jakob/Documents/University/TNM079/tnm079-student/GUI/FluidVoxelCutPlane.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/FluidVoxelCutPlane.cpp
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/FluidVoxelCutPlane.h
 CMakeFiles/MoA.dir/GUI/FrameMain.cpp.o
  .././Decimation/DecimationInterface.h
  .././Decimation/DecimationMesh.h
@@ -417,17 +417,17 @@ CMakeFiles/MoA.dir/GUI/FrameMain.cpp.o
  .././Util/Stopwatch.h
  .././Util/Util.h
  .././Util/trackball.h
- /home/jakob/Documents/University/TNM079/tnm079-student/GUI/FluidVoxelCutPlane.h
- /home/jakob/Documents/University/TNM079/tnm079-student/GUI/FrameMain.cpp
- /home/jakob/Documents/University/TNM079/tnm079-student/GUI/FrameMain.h
- /home/jakob/Documents/University/TNM079/tnm079-student/GUI/GLAxis.h
- /home/jakob/Documents/University/TNM079/tnm079-student/GUI/GLCamera.h
- /home/jakob/Documents/University/TNM079/tnm079-student/GUI/GLGridPlane.h
- /home/jakob/Documents/University/TNM079/tnm079-student/GUI/GLObject.h
- /home/jakob/Documents/University/TNM079/tnm079-student/GUI/GLViewer.h
- /home/jakob/Documents/University/TNM079/tnm079-student/GUI/GUI.h
- /home/jakob/Documents/University/TNM079/tnm079-student/GUI/ScalarCutPlane.h
- /home/jakob/Documents/University/TNM079/tnm079-student/GUI/VectorCutPlane.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/FluidVoxelCutPlane.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/FrameMain.cpp
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/FrameMain.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/GLAxis.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/GLCamera.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/GLGridPlane.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/GLObject.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/GLViewer.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/GUI.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/ScalarCutPlane.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/VectorCutPlane.h
  /usr/include/wx-3.0/wx/accel.h
  /usr/include/wx-3.0/wx/access.h
  /usr/include/wx-3.0/wx/affinematrix2d.h
@@ -677,9 +677,9 @@ CMakeFiles/MoA.dir/GUI/GLAxis.cpp.o
  .././Util/ColorMap.h
  .././Util/ColorMapFactory.h
  .././Util/Util.h
- /home/jakob/Documents/University/TNM079/tnm079-student/GUI/GLAxis.cpp
- /home/jakob/Documents/University/TNM079/tnm079-student/GUI/GLAxis.h
- /home/jakob/Documents/University/TNM079/tnm079-student/GUI/GLObject.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/GLAxis.cpp
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/GLAxis.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/GLObject.h
 CMakeFiles/MoA.dir/GUI/GLGridPlane.cpp.o
  .././Math/Vector3.h
  .././Math/Vector4.h
@@ -687,9 +687,9 @@ CMakeFiles/MoA.dir/GUI/GLGridPlane.cpp.o
  .././Util/ColorMap.h
  .././Util/ColorMapFactory.h
  .././Util/Util.h
- /home/jakob/Documents/University/TNM079/tnm079-student/GUI/GLGridPlane.cpp
- /home/jakob/Documents/University/TNM079/tnm079-student/GUI/GLGridPlane.h
- /home/jakob/Documents/University/TNM079/tnm079-student/GUI/GLObject.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/GLGridPlane.cpp
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/GLGridPlane.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/GLObject.h
 CMakeFiles/MoA.dir/GUI/GLObject.cpp.o
  .././Math/Vector3.h
  .././Math/Vector4.h
@@ -697,8 +697,8 @@ CMakeFiles/MoA.dir/GUI/GLObject.cpp.o
  .././Util/ColorMap.h
  .././Util/ColorMapFactory.h
  .././Util/Util.h
- /home/jakob/Documents/University/TNM079/tnm079-student/GUI/GLObject.cpp
- /home/jakob/Documents/University/TNM079/tnm079-student/GUI/GLObject.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/GLObject.cpp
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/GLObject.h
 CMakeFiles/MoA.dir/GUI/GLViewer.cpp.o
  .././Math/Matrix4x4.h
  .././Math/Matrix4x4_Impl.h
@@ -711,10 +711,10 @@ CMakeFiles/MoA.dir/GUI/GLViewer.cpp.o
  .././Util/Image_Impl.h
  .././Util/Util.h
  .././Util/trackball.h
- /home/jakob/Documents/University/TNM079/tnm079-student/GUI/GLCamera.h
- /home/jakob/Documents/University/TNM079/tnm079-student/GUI/GLObject.h
- /home/jakob/Documents/University/TNM079/tnm079-student/GUI/GLViewer.cpp
- /home/jakob/Documents/University/TNM079/tnm079-student/GUI/GLViewer.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/GLCamera.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/GLObject.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/GLViewer.cpp
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/GLViewer.h
  /usr/include/wx-3.0/wx/accel.h
  /usr/include/wx-3.0/wx/access.h
  /usr/include/wx-3.0/wx/affinematrix2d.h
@@ -967,11 +967,11 @@ CMakeFiles/MoA.dir/GUI/GUI.cpp.o
  .././Util/ColorMapFactory.h
  .././Util/Util.h
  .././Util/trackball.h
- /home/jakob/Documents/University/TNM079/tnm079-student/GUI/GLCamera.h
- /home/jakob/Documents/University/TNM079/tnm079-student/GUI/GLObject.h
- /home/jakob/Documents/University/TNM079/tnm079-student/GUI/GLViewer.h
- /home/jakob/Documents/University/TNM079/tnm079-student/GUI/GUI.cpp
- /home/jakob/Documents/University/TNM079/tnm079-student/GUI/GUI.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/GLCamera.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/GLObject.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/GLViewer.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/GUI.cpp
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/GUI.h
  /usr/include/wx-3.0/wx/accel.h
  /usr/include/wx-3.0/wx/access.h
  /usr/include/wx-3.0/wx/affinematrix2d.h
@@ -1226,8 +1226,8 @@ CMakeFiles/MoA.dir/GUI/ScalarCutPlane.cpp.o
  .././Util/ColorMap.h
  .././Util/ColorMapFactory.h
  .././Util/Util.h
- /home/jakob/Documents/University/TNM079/tnm079-student/GUI/ScalarCutPlane.cpp
- /home/jakob/Documents/University/TNM079/tnm079-student/GUI/ScalarCutPlane.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/ScalarCutPlane.cpp
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/ScalarCutPlane.h
 CMakeFiles/MoA.dir/GUI/VectorCutPlane.cpp.o
  .././GUI/GLObject.h
  .././Geometry/Geometry.h
@@ -1240,8 +1240,8 @@ CMakeFiles/MoA.dir/GUI/VectorCutPlane.cpp.o
  .././Util/ColorMap.h
  .././Util/ColorMapFactory.h
  .././Util/Util.h
- /home/jakob/Documents/University/TNM079/tnm079-student/GUI/VectorCutPlane.cpp
- /home/jakob/Documents/University/TNM079/tnm079-student/GUI/VectorCutPlane.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/VectorCutPlane.cpp
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/VectorCutPlane.h
 CMakeFiles/MoA.dir/Geometry/Cube.cpp.o
  .././GUI/GLObject.h
  .././Geometry/Bbox.h
@@ -1260,8 +1260,8 @@ CMakeFiles/MoA.dir/Geometry/Cube.cpp.o
  .././Util/JetColorMap.h
  .././Util/MarchingCubes.h
  .././Util/Util.h
- /home/jakob/Documents/University/TNM079/tnm079-student/Geometry/Cube.cpp
- /home/jakob/Documents/University/TNM079/tnm079-student/Geometry/Cube.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/Cube.cpp
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/Cube.h
 CMakeFiles/MoA.dir/Geometry/HalfEdgeMesh.cpp.o
  .././GUI/GLObject.h
  .././Geometry/Geometry.h
@@ -1276,7 +1276,7 @@ CMakeFiles/MoA.dir/Geometry/HalfEdgeMesh.cpp.o
  .././Util/ColorMapFactory.h
  .././Util/ObjIO.h
  .././Util/Util.h
- /home/jakob/Documents/University/TNM079/tnm079-student/Geometry/HalfEdgeMesh.cpp
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/HalfEdgeMesh.cpp
 CMakeFiles/MoA.dir/Geometry/Implicit.cpp.o
  .././GUI/GLObject.h
  .././Geometry/Bbox.h
@@ -1293,8 +1293,8 @@ CMakeFiles/MoA.dir/Geometry/Implicit.cpp.o
  .././Util/JetColorMap.h
  .././Util/MarchingCubes.h
  .././Util/Util.h
- /home/jakob/Documents/University/TNM079/tnm079-student/Geometry/Implicit.cpp
- /home/jakob/Documents/University/TNM079/tnm079-student/Geometry/Implicit.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/Implicit.cpp
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/Implicit.h
 CMakeFiles/MoA.dir/Geometry/ImplicitMesh.cpp.o
  .././GUI/GLObject.h
  .././Geometry/Bbox.h
@@ -1314,7 +1314,7 @@ CMakeFiles/MoA.dir/Geometry/ImplicitMesh.cpp.o
  .././Util/JetColorMap.h
  .././Util/MarchingCubes.h
  .././Util/Util.h
- /home/jakob/Documents/University/TNM079/tnm079-student/Geometry/ImplicitMesh.cpp
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/ImplicitMesh.cpp
 CMakeFiles/MoA.dir/Geometry/LineStrip.cpp.o
  .././GUI/GLObject.h
  .././Geometry/Geometry.h
@@ -1326,8 +1326,8 @@ CMakeFiles/MoA.dir/Geometry/LineStrip.cpp.o
  .././Util/ColorMap.h
  .././Util/ColorMapFactory.h
  .././Util/Util.h
- /home/jakob/Documents/University/TNM079/tnm079-student/Geometry/LineStrip.cpp
- /home/jakob/Documents/University/TNM079/tnm079-student/Geometry/LineStrip.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/LineStrip.cpp
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/LineStrip.h
 CMakeFiles/MoA.dir/Geometry/Mesh.cpp.o
  .././GUI/GLObject.h
  .././Geometry/Geometry.h
@@ -1339,8 +1339,8 @@ CMakeFiles/MoA.dir/Geometry/Mesh.cpp.o
  .././Util/ColorMap.h
  .././Util/ColorMapFactory.h
  .././Util/Util.h
- /home/jakob/Documents/University/TNM079/tnm079-student/Geometry/Mesh.cpp
- /home/jakob/Documents/University/TNM079/tnm079-student/Geometry/Mesh.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/Mesh.cpp
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/Mesh.h
 CMakeFiles/MoA.dir/Geometry/Quadric.cpp.o
  .././GUI/GLObject.h
  .././Geometry/Bbox.h
@@ -1358,8 +1358,8 @@ CMakeFiles/MoA.dir/Geometry/Quadric.cpp.o
  .././Util/JetColorMap.h
  .././Util/MarchingCubes.h
  .././Util/Util.h
- /home/jakob/Documents/University/TNM079/tnm079-student/Geometry/Quadric.cpp
- /home/jakob/Documents/University/TNM079/tnm079-student/Geometry/Quadric.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/Quadric.cpp
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/Quadric.h
 CMakeFiles/MoA.dir/Geometry/SignedDistanceSphere.cpp.o
  .././GUI/GLObject.h
  .././Geometry/Bbox.h
@@ -1377,8 +1377,8 @@ CMakeFiles/MoA.dir/Geometry/SignedDistanceSphere.cpp.o
  .././Util/JetColorMap.h
  .././Util/MarchingCubes.h
  .././Util/Util.h
- /home/jakob/Documents/University/TNM079/tnm079-student/Geometry/SignedDistanceSphere.cpp
- /home/jakob/Documents/University/TNM079/tnm079-student/Geometry/SignedDistanceSphere.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/SignedDistanceSphere.cpp
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/SignedDistanceSphere.h
 CMakeFiles/MoA.dir/Geometry/SimpleMesh.cpp.o
  .././GUI/GLObject.h
  .././Geometry/Geometry.h
@@ -1393,7 +1393,7 @@ CMakeFiles/MoA.dir/Geometry/SimpleMesh.cpp.o
  .././Util/ColorMapFactory.h
  .././Util/JetColorMap.h
  .././Util/Util.h
- /home/jakob/Documents/University/TNM079/tnm079-student/Geometry/SimpleMesh.cpp
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/SimpleMesh.cpp
 CMakeFiles/MoA.dir/Geometry/Sphere.cpp.o
  .././GUI/GLObject.h
  .././Geometry/Bbox.h
@@ -1411,8 +1411,8 @@ CMakeFiles/MoA.dir/Geometry/Sphere.cpp.o
  .././Util/JetColorMap.h
  .././Util/MarchingCubes.h
  .././Util/Util.h
- /home/jakob/Documents/University/TNM079/tnm079-student/Geometry/Sphere.cpp
- /home/jakob/Documents/University/TNM079/tnm079-student/Geometry/Sphere.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/Sphere.cpp
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/Sphere.h
 CMakeFiles/MoA.dir/Geometry/SphereFractal.cpp.o
  .././GUI/GLObject.h
  .././Geometry/Bbox.h
@@ -1432,8 +1432,8 @@ CMakeFiles/MoA.dir/Geometry/SphereFractal.cpp.o
  .././Util/JetColorMap.h
  .././Util/MarchingCubes.h
  .././Util/Util.h
- /home/jakob/Documents/University/TNM079/tnm079-student/Geometry/SphereFractal.cpp
- /home/jakob/Documents/University/TNM079/tnm079-student/Geometry/SphereFractal.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/SphereFractal.cpp
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/SphereFractal.h
 CMakeFiles/MoA.dir/Levelset/LevelSet.cpp.o
  .././GUI/GLObject.h
  .././Geometry/Bbox.h
@@ -1454,16 +1454,16 @@ CMakeFiles/MoA.dir/Levelset/LevelSet.cpp.o
  .././Util/JetColorMap.h
  .././Util/MarchingCubes.h
  .././Util/Util.h
- /home/jakob/Documents/University/TNM079/tnm079-student/Levelset/LevelSet.cpp
- /home/jakob/Documents/University/TNM079/tnm079-student/Levelset/LevelSet.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Levelset/LevelSet.cpp
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Levelset/LevelSet.h
 CMakeFiles/MoA.dir/Levelset/LevelSetGrid.cpp.o
  .././Math/Vector3.h
  .././Math/Vector4.h
  .././Math/Volume.h
  .././Util/BitMask3D.h
  .././Util/Util.h
- /home/jakob/Documents/University/TNM079/tnm079-student/Levelset/LevelSetGrid.cpp
- /home/jakob/Documents/University/TNM079/tnm079-student/Levelset/LevelSetGrid.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Levelset/LevelSetGrid.cpp
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Levelset/LevelSetGrid.h
 CMakeFiles/MoA.dir/Levelset/LevelSetOperator.cpp.o
  .././GUI/GLObject.h
  .././Geometry/Bbox.h
@@ -1485,16 +1485,16 @@ CMakeFiles/MoA.dir/Levelset/LevelSetOperator.cpp.o
  .././Util/JetColorMap.h
  .././Util/MarchingCubes.h
  .././Util/Util.h
- /home/jakob/Documents/University/TNM079/tnm079-student/Levelset/LevelSetOperator.cpp
- /home/jakob/Documents/University/TNM079/tnm079-student/Levelset/LevelSetOperator.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Levelset/LevelSetOperator.cpp
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Levelset/LevelSetOperator.h
 CMakeFiles/MoA.dir/Math/TrilinearInterpolator.cpp.o
  .././Math/Interpolator.h
  .././Math/Vector3.h
  .././Math/Vector4.h
  .././Math/Volume.h
  .././Util/Util.h
- /home/jakob/Documents/University/TNM079/tnm079-student/Math/TrilinearInterpolator.cpp
- /home/jakob/Documents/University/TNM079/tnm079-student/Math/TrilinearInterpolator.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Math/TrilinearInterpolator.cpp
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Math/TrilinearInterpolator.h
 CMakeFiles/MoA.dir/Subdivision/AdaptiveLoopSubdivisionMesh.cpp.o
  .././GUI/GLObject.h
  .././Geometry/Geometry.h
@@ -1512,7 +1512,7 @@ CMakeFiles/MoA.dir/Subdivision/AdaptiveLoopSubdivisionMesh.cpp.o
  .././Util/ColorMapFactory.h
  .././Util/ObjIO.h
  .././Util/Util.h
- /home/jakob/Documents/University/TNM079/tnm079-student/Subdivision/AdaptiveLoopSubdivisionMesh.cpp
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Subdivision/AdaptiveLoopSubdivisionMesh.cpp
 CMakeFiles/MoA.dir/Subdivision/LoopSubdivisionMesh.cpp.o
  .././GUI/GLObject.h
  .././Geometry/Geometry.h
@@ -1527,9 +1527,9 @@ CMakeFiles/MoA.dir/Subdivision/LoopSubdivisionMesh.cpp.o
  .././Util/ColorMapFactory.h
  .././Util/ObjIO.h
  .././Util/Util.h
- /home/jakob/Documents/University/TNM079/tnm079-student/Subdivision/LoopSubdivisionMesh.cpp
- /home/jakob/Documents/University/TNM079/tnm079-student/Subdivision/LoopSubdivisionMesh.h
- /home/jakob/Documents/University/TNM079/tnm079-student/Subdivision/Subdivision.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Subdivision/LoopSubdivisionMesh.cpp
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Subdivision/LoopSubdivisionMesh.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Subdivision/Subdivision.h
 CMakeFiles/MoA.dir/Subdivision/UniformCubicSpline.cpp.o
  .././GUI/GLObject.h
  .././Geometry/Geometry.h
@@ -1542,8 +1542,8 @@ CMakeFiles/MoA.dir/Subdivision/UniformCubicSpline.cpp.o
  .././Util/ColorMap.h
  .././Util/ColorMapFactory.h
  .././Util/Util.h
- /home/jakob/Documents/University/TNM079/tnm079-student/Subdivision/UniformCubicSpline.cpp
- /home/jakob/Documents/University/TNM079/tnm079-student/Subdivision/UniformCubicSpline.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Subdivision/UniformCubicSpline.cpp
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Subdivision/UniformCubicSpline.h
 CMakeFiles/MoA.dir/Subdivision/UniformCubicSplineSubdivisionCurve.cpp.o
  .././GUI/GLObject.h
  .././Geometry/Geometry.h
@@ -1556,9 +1556,9 @@ CMakeFiles/MoA.dir/Subdivision/UniformCubicSplineSubdivisionCurve.cpp.o
  .././Util/ColorMap.h
  .././Util/ColorMapFactory.h
  .././Util/Util.h
- /home/jakob/Documents/University/TNM079/tnm079-student/Subdivision/Subdivision.h
- /home/jakob/Documents/University/TNM079/tnm079-student/Subdivision/UniformCubicSplineSubdivisionCurve.cpp
- /home/jakob/Documents/University/TNM079/tnm079-student/Subdivision/UniformCubicSplineSubdivisionCurve.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Subdivision/Subdivision.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Subdivision/UniformCubicSplineSubdivisionCurve.cpp
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Subdivision/UniformCubicSplineSubdivisionCurve.h
 CMakeFiles/MoA.dir/Util/BlackWhiteColorMap.cpp.o
  .././Math/Vector3.h
  .././Math/Vector4.h
@@ -1566,20 +1566,20 @@ CMakeFiles/MoA.dir/Util/BlackWhiteColorMap.cpp.o
  .././Util/ColorMap.h
  .././Util/ColorMapFactory.h
  .././Util/Util.h
- /home/jakob/Documents/University/TNM079/tnm079-student/Util/BlackWhiteColorMap.cpp
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Util/BlackWhiteColorMap.cpp
 CMakeFiles/MoA.dir/Util/ColorMap.cpp.o
  .././Math/Vector3.h
  .././Math/Vector4.h
  .././Util/Util.h
- /home/jakob/Documents/University/TNM079/tnm079-student/Util/ColorMap.cpp
- /home/jakob/Documents/University/TNM079/tnm079-student/Util/ColorMap.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Util/ColorMap.cpp
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Util/ColorMap.h
 CMakeFiles/MoA.dir/Util/ColorMapFactory.cpp.o
  .././Math/Vector3.h
  .././Math/Vector4.h
  .././Util/ColorMap.h
  .././Util/Util.h
- /home/jakob/Documents/University/TNM079/tnm079-student/Util/ColorMapFactory.cpp
- /home/jakob/Documents/University/TNM079/tnm079-student/Util/ColorMapFactory.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Util/ColorMapFactory.cpp
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Util/ColorMapFactory.h
 CMakeFiles/MoA.dir/Util/GLObjectPlayback.cpp.o
  .././GUI/GLObject.h
  .././Geometry/Geometry.h
@@ -1596,7 +1596,7 @@ CMakeFiles/MoA.dir/Util/GLObjectPlayback.cpp.o
  .././Util/JetColorMap.h
  .././Util/Stopwatch.h
  .././Util/Util.h
- /home/jakob/Documents/University/TNM079/tnm079-student/Util/GLObjectPlayback.cpp
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Util/GLObjectPlayback.cpp
 CMakeFiles/MoA.dir/Util/GreenRedColorMap.cpp.o
  .././Math/Vector3.h
  .././Math/Vector4.h
@@ -1604,7 +1604,7 @@ CMakeFiles/MoA.dir/Util/GreenRedColorMap.cpp.o
  .././Util/ColorMapFactory.h
  .././Util/GreenRedColorMap.h
  .././Util/Util.h
- /home/jakob/Documents/University/TNM079/tnm079-student/Util/GreenRedColorMap.cpp
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Util/GreenRedColorMap.cpp
 CMakeFiles/MoA.dir/Util/HSVColorMap.cpp.o
  .././Math/Vector3.h
  .././Math/Vector4.h
@@ -1612,10 +1612,10 @@ CMakeFiles/MoA.dir/Util/HSVColorMap.cpp.o
  .././Util/ColorMapFactory.h
  .././Util/HSVColorMap.h
  .././Util/Util.h
- /home/jakob/Documents/University/TNM079/tnm079-student/Util/HSVColorMap.cpp
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Util/HSVColorMap.cpp
 CMakeFiles/MoA.dir/Util/Heap.cpp.o
- /home/jakob/Documents/University/TNM079/tnm079-student/Util/Heap.cpp
- /home/jakob/Documents/University/TNM079/tnm079-student/Util/Heap.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Util/Heap.cpp
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Util/Heap.h
 CMakeFiles/MoA.dir/Util/HotColorMap.cpp.o
  .././Math/Vector3.h
  .././Math/Vector4.h
@@ -1623,7 +1623,7 @@ CMakeFiles/MoA.dir/Util/HotColorMap.cpp.o
  .././Util/ColorMapFactory.h
  .././Util/HotColorMap.h
  .././Util/Util.h
- /home/jakob/Documents/University/TNM079/tnm079-student/Util/HotColorMap.cpp
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Util/HotColorMap.cpp
 CMakeFiles/MoA.dir/Util/IsoContourColorMap.cpp.o
  .././Math/Vector3.h
  .././Math/Vector4.h
@@ -1631,7 +1631,7 @@ CMakeFiles/MoA.dir/Util/IsoContourColorMap.cpp.o
  .././Util/ColorMapFactory.h
  .././Util/IsoContourColorMap.h
  .././Util/Util.h
- /home/jakob/Documents/University/TNM079/tnm079-student/Util/IsoContourColorMap.cpp
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Util/IsoContourColorMap.cpp
 CMakeFiles/MoA.dir/Util/JetColorMap.cpp.o
  .././Math/Vector3.h
  .././Math/Vector4.h
@@ -1639,14 +1639,14 @@ CMakeFiles/MoA.dir/Util/JetColorMap.cpp.o
  .././Util/ColorMapFactory.h
  .././Util/JetColorMap.h
  .././Util/Util.h
- /home/jakob/Documents/University/TNM079/tnm079-student/Util/JetColorMap.cpp
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Util/JetColorMap.cpp
 CMakeFiles/MoA.dir/Util/MarchingCubes.cpp.o
  .././Math/Vector3.h
  .././Math/Vector4.h
  .././Util/Util.h
- /home/jakob/Documents/University/TNM079/tnm079-student/Util/MarchingCubes.cpp
- /home/jakob/Documents/University/TNM079/tnm079-student/Util/MarchingCubes.h
- /home/jakob/Documents/University/TNM079/tnm079-student/Util/MarchingCubesTable.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Util/MarchingCubes.cpp
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Util/MarchingCubes.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Util/MarchingCubesTable.h
 CMakeFiles/MoA.dir/Util/ObjIO.cpp.o
  .././GUI/GLObject.h
  .././Geometry/Geometry.h
@@ -1661,14 +1661,14 @@ CMakeFiles/MoA.dir/Util/ObjIO.cpp.o
  .././Util/ColorMapFactory.h
  .././Util/ObjIO.h
  .././Util/Util.h
- /home/jakob/Documents/University/TNM079/tnm079-student/Util/ObjIO.cpp
- /home/jakob/Documents/University/TNM079/tnm079-student/Util/ObjIO.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Util/ObjIO.cpp
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Util/ObjIO.h
 CMakeFiles/MoA.dir/Util/Util.cpp.o
- /home/jakob/Documents/University/TNM079/tnm079-student/Util/Util.cpp
- /home/jakob/Documents/University/TNM079/tnm079-student/Util/Util.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Util/Util.cpp
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Util/Util.h
 CMakeFiles/MoA.dir/Util/trackball.cpp.o
- /home/jakob/Documents/University/TNM079/tnm079-student/Util/trackball.cpp
- /home/jakob/Documents/University/TNM079/tnm079-student/Util/trackball.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Util/trackball.cpp
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Util/trackball.h
 CMakeFiles/MoA.dir/main.cpp.o
  .././Decimation/DecimationInterface.h
  .././Decimation/DecimationMesh.h
@@ -1728,18 +1728,18 @@ CMakeFiles/MoA.dir/main.cpp.o
  .././Util/Stopwatch.h
  .././Util/Util.h
  .././Util/trackball.h
- /home/jakob/Documents/University/TNM079/tnm079-student/GUI/FluidVoxelCutPlane.h
- /home/jakob/Documents/University/TNM079/tnm079-student/GUI/FrameMain.h
- /home/jakob/Documents/University/TNM079/tnm079-student/GUI/GLAxis.h
- /home/jakob/Documents/University/TNM079/tnm079-student/GUI/GLCamera.h
- /home/jakob/Documents/University/TNM079/tnm079-student/GUI/GLGridPlane.h
- /home/jakob/Documents/University/TNM079/tnm079-student/GUI/GLObject.h
- /home/jakob/Documents/University/TNM079/tnm079-student/GUI/GLViewer.h
- /home/jakob/Documents/University/TNM079/tnm079-student/GUI/GUI.h
- /home/jakob/Documents/University/TNM079/tnm079-student/GUI/ScalarCutPlane.h
- /home/jakob/Documents/University/TNM079/tnm079-student/GUI/VectorCutPlane.h
- /home/jakob/Documents/University/TNM079/tnm079-student/Util/Console.h
- /home/jakob/Documents/University/TNM079/tnm079-student/main.cpp
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/FluidVoxelCutPlane.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/FrameMain.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/GLAxis.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/GLCamera.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/GLGridPlane.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/GLObject.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/GLViewer.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/GUI.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/ScalarCutPlane.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/VectorCutPlane.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/Util/Console.h
+ /home/jakob/Documents/University/TNM079/TNM079-Labs/main.cpp
  /usr/include/wx-3.0/wx/accel.h
  /usr/include/wx-3.0/wx/access.h
  /usr/include/wx-3.0/wx/affinematrix2d.h

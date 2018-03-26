@@ -6,5 +6,5 @@ CXX_FLAGS =  -pthread -std=gnu++11 -Wno-deprecated -Wno-deprecated-declarations 
 
 CXX_DEFINES = -DFREEGLUT_STATIC -DLAB1 -DLAB2 -DLAB3 -DLAB4 -DLAB5 -DLAB6 -DWXUSINGDLL -D_CRT_SECURE_NO_WARNINGS -D_FILE_OFFSET_BITS=64 -D_SCL_SECURE_NO_WARNINGS -D_USE_MATH_DEFINES -D__WXGTK__
 
-CXX_INCLUDES = -isystem /usr/lib/x86_64-linux-gnu/wx/include/gtk2-unicode-3.0 -isystem /usr/include/wx-3.0 -I/home/jakob/Documents/University/TNM079/tnm079-student/. 
+CXX_INCLUDES = -isystem /usr/lib/x86_64-linux-gnu/wx/include/gtk2-unicode-3.0 -isystem /usr/include/wx-3.0 -I/home/jakob/Documents/University/TNM079/TNM079-Labs/. 
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/jakob/Documents/University/TNM079/tnm079-student
+# Install script for directory: /home/jakob/Documents/University/TNM079/TNM079-Labs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/jakob/Documents/University/TNM079/tnm079-student/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/jakob/Documents/University/TNM079/TNM079-Labs/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

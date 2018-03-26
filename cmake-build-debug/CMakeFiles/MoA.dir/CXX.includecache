@@ -632,95 +632,95 @@ string
 
 .././Util/trackball.h
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Decimation/DecimationMesh.cpp
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Decimation/DecimationMesh.cpp
 Decimation/DecimationMesh.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Decimation/Decimation/DecimationMesh.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Decimation/Decimation/DecimationMesh.h
 GUI/GUI.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Decimation/GUI/GUI.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Decimation/GUI/GUI.h
 Util/ColorMap.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Decimation/Util/ColorMap.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Decimation/Util/ColorMap.h
 cassert
 -
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Decimation/QuadricDecimationMesh.cpp
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Decimation/QuadricDecimationMesh.cpp
 QuadricDecimationMesh.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Decimation/QuadricDecimationMesh.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Decimation/QuadricDecimationMesh.h
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Decimation/QuadricDecimationMesh.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Decimation/QuadricDecimationMesh.h
 Decimation/DecimationMesh.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Decimation/Decimation/DecimationMesh.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Decimation/Decimation/DecimationMesh.h
 Math/Matrix4x4.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Decimation/Math/Matrix4x4.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Decimation/Math/Matrix4x4.h
 iomanip
 -
 GLUT/glut.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Decimation/GLUT/glut.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Decimation/GLUT/glut.h
 GL/glut.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Decimation/GL/glut.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Decimation/GL/glut.h
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Decimation/SimpleDecimationMesh.cpp
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Decimation/SimpleDecimationMesh.cpp
 SimpleDecimationMesh.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Decimation/SimpleDecimationMesh.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Decimation/SimpleDecimationMesh.h
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Decimation/SimpleDecimationMesh.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Decimation/SimpleDecimationMesh.h
 Decimation/DecimationMesh.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Decimation/Decimation/DecimationMesh.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Decimation/Decimation/DecimationMesh.h
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Fluid/FluidSolver.cpp
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Fluid/FluidSolver.cpp
 FluidSolver.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Fluid/FluidSolver.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Fluid/FluidSolver.h
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Fluid/FluidSolver.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Fluid/FluidSolver.h
 Geometry/Implicit.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Fluid/Geometry/Implicit.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Fluid/Geometry/Implicit.h
 Levelset/LevelSet.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Fluid/Levelset/LevelSet.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Fluid/Levelset/LevelSet.h
 Math/CoordMatrix.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Fluid/Math/CoordMatrix.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Fluid/Math/CoordMatrix.h
 Math/Function3D.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Fluid/Math/Function3D.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Fluid/Math/Function3D.h
 Math/Volume.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Fluid/Math/Volume.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Fluid/Math/Volume.h
 Util/Util.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Fluid/Util/Util.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Fluid/Util/Util.h
 cassert
 -
 set
 -
 Math/ConjugateGradient.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Fluid/Math/ConjugateGradient.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Fluid/Math/ConjugateGradient.h
 
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/FluidVoxelCutPlane.cpp
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/FluidVoxelCutPlane.cpp
 FluidVoxelCutPlane.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/FluidVoxelCutPlane.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/FluidVoxelCutPlane.h
 
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/FluidVoxelCutPlane.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/FluidVoxelCutPlane.h
 Fluid/FluidSolver.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/Fluid/FluidSolver.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/Fluid/FluidSolver.h
 Geometry/Geometry.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/Geometry/Geometry.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/Geometry/Geometry.h
 Math/Vector3.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/Math/Vector3.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/Math/Vector3.h
 Util/ColorMap.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/Util/ColorMap.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/Util/ColorMap.h
 vector
 -
 
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/FrameMain.cpp
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/FrameMain.cpp
 FrameMain.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/FrameMain.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/FrameMain.h
 
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/FrameMain.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/FrameMain.h
 GLAxis.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/GLAxis.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/GLAxis.h
 GLGridPlane.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/GLGridPlane.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/GLGridPlane.h
 GUI.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/GUI.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/GUI.h
 Util/ColorMapFactory.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/Util/ColorMapFactory.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/Util/ColorMapFactory.h
 Util/ObjIO.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/Util/ObjIO.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/Util/ObjIO.h
 fstream
 -
 list
@@ -732,105 +732,105 @@ sstream
 typeinfo
 -
 Geometry/HalfEdgeMesh.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/Geometry/HalfEdgeMesh.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/Geometry/HalfEdgeMesh.h
 Geometry/SimpleMesh.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/Geometry/SimpleMesh.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/Geometry/SimpleMesh.h
 Decimation/QuadricDecimationMesh.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/Decimation/QuadricDecimationMesh.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/Decimation/QuadricDecimationMesh.h
 Decimation/SimpleDecimationMesh.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/Decimation/SimpleDecimationMesh.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/Decimation/SimpleDecimationMesh.h
 Subdivision/LoopSubdivisionMesh.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/Subdivision/LoopSubdivisionMesh.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/Subdivision/LoopSubdivisionMesh.h
 Subdivision/StrangeSubdivisionMesh.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/Subdivision/StrangeSubdivisionMesh.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/Subdivision/StrangeSubdivisionMesh.h
 Subdivision/UniformCubicSpline.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/Subdivision/UniformCubicSpline.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/Subdivision/UniformCubicSpline.h
 Subdivision/UniformCubicSplineSubdivisionCurve.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/Subdivision/UniformCubicSplineSubdivisionCurve.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/Subdivision/UniformCubicSplineSubdivisionCurve.h
 Geometry/CSG.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/Geometry/CSG.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/Geometry/CSG.h
 Geometry/Cube.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/Geometry/Cube.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/Geometry/Cube.h
 Geometry/ImplicitGradientField.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/Geometry/ImplicitGradientField.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/Geometry/ImplicitGradientField.h
 Geometry/ImplicitMesh.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/Geometry/ImplicitMesh.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/Geometry/ImplicitMesh.h
 Geometry/ImplicitValueField.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/Geometry/ImplicitValueField.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/Geometry/ImplicitValueField.h
 Geometry/Quadric.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/Geometry/Quadric.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/Geometry/Quadric.h
 Geometry/Sphere.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/Geometry/Sphere.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/Geometry/Sphere.h
 ScalarCutPlane.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/ScalarCutPlane.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/ScalarCutPlane.h
 VectorCutPlane.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/VectorCutPlane.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/VectorCutPlane.h
 Levelset/LevelSet.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/Levelset/LevelSet.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/Levelset/LevelSet.h
 Levelset/OperatorAdvect.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/Levelset/OperatorAdvect.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/Levelset/OperatorAdvect.h
 Levelset/OperatorDilateErode.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/Levelset/OperatorDilateErode.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/Levelset/OperatorDilateErode.h
 Levelset/OperatorMeanCurvatureFlow.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/Levelset/OperatorMeanCurvatureFlow.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/Levelset/OperatorMeanCurvatureFlow.h
 Levelset/OperatorMorph.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/Levelset/OperatorMorph.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/Levelset/OperatorMorph.h
 Levelset/OperatorReinitialize.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/Levelset/OperatorReinitialize.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/Levelset/OperatorReinitialize.h
 Levelset/OperatorReinitializeFastMarching.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/Levelset/OperatorReinitializeFastMarching.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/Levelset/OperatorReinitializeFastMarching.h
 Math/ConstantVectorField.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/Math/ConstantVectorField.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/Math/ConstantVectorField.h
 Math/VortexVectorField.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/Math/VortexVectorField.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/Math/VortexVectorField.h
 Fluid/FluidSolver.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/Fluid/FluidSolver.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/Fluid/FluidSolver.h
 FluidVoxelCutPlane.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/FluidVoxelCutPlane.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/FluidVoxelCutPlane.h
 Util/GLObjectPlayback.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/Util/GLObjectPlayback.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/Util/GLObjectPlayback.h
 
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/GLAxis.cpp
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/GLAxis.cpp
 GLAxis.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/GLAxis.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/GLAxis.h
 
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/GLAxis.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/GLAxis.h
 GLObject.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/GLObject.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/GLObject.h
 
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/GLCamera.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/GLCamera.h
 GLUT/glut.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/GLUT/glut.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/GLUT/glut.h
 GL/glut.h
 -
 Math/Matrix4x4.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/Math/Matrix4x4.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/Math/Matrix4x4.h
 Math/Vector3.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/Math/Vector3.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/Math/Vector3.h
 Util/trackball.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/Util/trackball.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/Util/trackball.h
 
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/GLGridPlane.cpp
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/GLGridPlane.cpp
 GLGridPlane.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/GLGridPlane.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/GLGridPlane.h
 
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/GLGridPlane.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/GLGridPlane.h
 GLObject.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/GLObject.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/GLObject.h
 
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/GLObject.cpp
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/GLObject.cpp
 GLObject.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/GLObject.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/GLObject.h
 iostream
 -
 
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/GLObject.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/GLObject.h
 GLUT/glut.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/GLUT/glut.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/GLUT/glut.h
 GL/glut.h
 -
 Util/BlackWhiteColorMap.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/Util/BlackWhiteColorMap.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/Util/BlackWhiteColorMap.h
 cstring
 -
 list
@@ -840,9 +840,9 @@ string
 typeinfo
 -
 
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/GLViewer.cpp
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/GLViewer.cpp
 GLViewer.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/GLViewer.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/GLViewer.h
 algorithm
 -
 iostream
@@ -850,11 +850,11 @@ iostream
 limits
 -
 GLUT/glut.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/GLUT/glut.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/GLUT/glut.h
 OpenGL/gl.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/OpenGL/gl.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/OpenGL/gl.h
 OpenGL/glu.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/OpenGL/glu.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/OpenGL/glu.h
 GL/gl.h
 -
 GL/glext.h
@@ -864,31 +864,31 @@ GL/glu.h
 GL/glut.h
 -
 Math/Vector3.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/Math/Vector3.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/Math/Vector3.h
 Util/Image.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/Util/Image.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/Util/Image.h
 
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/GLViewer.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/GLViewer.h
 wx/wx.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/wx/wx.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/wx/wx.h
 wx/glcanvas.h
 -
 GLCamera.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/GLCamera.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/GLCamera.h
 GLObject.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/GLObject.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/GLObject.h
 list
 -
 string
 -
 
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/GUI.cpp
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/GUI.cpp
 GUI.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/GUI.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/GUI.h
 
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/GUI.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/GUI.h
 GLViewer.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/GLViewer.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/GLViewer.h
 wx/bitmap.h
 -
 wx/button.h
@@ -934,9 +934,9 @@ wx/string.h
 wx/textctrl.h
 -
 
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/ScalarCutPlane.cpp
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/ScalarCutPlane.cpp
 ScalarCutPlane.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/ScalarCutPlane.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/ScalarCutPlane.h
 GL/glext.h
 -
 cassert
@@ -944,233 +944,233 @@ cassert
 limits
 -
 
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/ScalarCutPlane.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/ScalarCutPlane.h
 Geometry/Geometry.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/Geometry/Geometry.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/Geometry/Geometry.h
 Math/Function3D.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/Math/Function3D.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/Math/Function3D.h
 Util/ColorMap.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/Util/ColorMap.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/Util/ColorMap.h
 
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/VectorCutPlane.cpp
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/VectorCutPlane.cpp
 VectorCutPlane.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/VectorCutPlane.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/VectorCutPlane.h
 
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/VectorCutPlane.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/VectorCutPlane.h
 Geometry/Geometry.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/Geometry/Geometry.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/Geometry/Geometry.h
 Math/Function3D.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/Math/Function3D.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/Math/Function3D.h
 Math/Vector3.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/Math/Vector3.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/Math/Vector3.h
 Util/ColorMap.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/Util/ColorMap.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/Util/ColorMap.h
 vector
 -
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/Cube.cpp
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/Cube.cpp
 Cube.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/Cube.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/Cube.h
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/Cube.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/Cube.h
 Geometry/Quadric.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/Geometry/Quadric.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/Geometry/Quadric.h
 vector
 -
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/HalfEdgeMesh.cpp
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/HalfEdgeMesh.cpp
 Geometry/HalfEdgeMesh.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/Geometry/HalfEdgeMesh.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/Geometry/HalfEdgeMesh.h
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/Implicit.cpp
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/Implicit.cpp
 Implicit.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/Implicit.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/Implicit.h
 GLUT/glut.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/GLUT/glut.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/GLUT/glut.h
 GL/glut.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/GL/glut.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/GL/glut.h
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/Implicit.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/Implicit.h
 Geometry/Bbox.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/Geometry/Bbox.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/Geometry/Bbox.h
 Geometry/Geometry.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/Geometry/Geometry.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/Geometry/Geometry.h
 Geometry/Mesh.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/Geometry/Mesh.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/Geometry/Mesh.h
 Geometry/SimpleMesh.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/Geometry/SimpleMesh.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/Geometry/SimpleMesh.h
 Util/MarchingCubes.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/Util/MarchingCubes.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/Util/MarchingCubes.h
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/ImplicitMesh.cpp
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/ImplicitMesh.cpp
 Geometry/ImplicitMesh.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/Geometry/ImplicitMesh.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/Geometry/ImplicitMesh.h
 Util/ColorMap.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/Util/ColorMap.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/Util/ColorMap.h
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/LineStrip.cpp
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/LineStrip.cpp
 LineStrip.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/LineStrip.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/LineStrip.h
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/LineStrip.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/LineStrip.h
 Geometry/Geometry.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/Geometry/Geometry.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/Geometry/Geometry.h
 Math/Vector3.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/Math/Vector3.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/Math/Vector3.h
 iostream
 -
 vector
 -
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/Mesh.cpp
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/Mesh.cpp
 Mesh.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/Mesh.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/Mesh.h
 iostream
 -
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/Mesh.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/Mesh.h
 Geometry/Geometry.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/Geometry/Geometry.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/Geometry/Geometry.h
 Math/Matrix4x4.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/Math/Matrix4x4.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/Math/Matrix4x4.h
 Math/Vector3.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/Math/Vector3.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/Math/Vector3.h
 vector
 -
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/Quadric.cpp
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/Quadric.cpp
 Quadric.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/Quadric.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/Quadric.h
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/Quadric.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/Quadric.h
 Geometry/Implicit.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/Geometry/Implicit.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/Geometry/Implicit.h
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/SignedDistanceSphere.cpp
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/SignedDistanceSphere.cpp
 SignedDistanceSphere.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/SignedDistanceSphere.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/SignedDistanceSphere.h
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/SignedDistanceSphere.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/SignedDistanceSphere.h
 Geometry/Implicit.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/Geometry/Implicit.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/Geometry/Implicit.h
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/SimpleMesh.cpp
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/SimpleMesh.cpp
 Geometry/SimpleMesh.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/Geometry/SimpleMesh.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/Geometry/SimpleMesh.h
 Util/ColorMap.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/Util/ColorMap.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/Util/ColorMap.h
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/Sphere.cpp
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/Sphere.cpp
 Sphere.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/Sphere.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/Sphere.h
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/Sphere.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/Sphere.h
 Geometry/Implicit.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/Geometry/Implicit.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/Geometry/Implicit.h
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/SphereFractal.cpp
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/SphereFractal.cpp
 SphereFractal.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/SphereFractal.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/SphereFractal.h
 fstream
 -
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/SphereFractal.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/SphereFractal.h
 Geometry/Bbox.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/Geometry/Bbox.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/Geometry/Bbox.h
 Geometry/CSG.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/Geometry/CSG.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/Geometry/CSG.h
 Geometry/Geometry.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/Geometry/Geometry.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/Geometry/Geometry.h
 Geometry/Implicit.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/Geometry/Implicit.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/Geometry/Implicit.h
 Geometry/Sphere.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/Geometry/Sphere.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/Geometry/Sphere.h
 Math/Matrix4x4.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/Math/Matrix4x4.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Geometry/Math/Matrix4x4.h
 vector
 -
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Levelset/LevelSet.cpp
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Levelset/LevelSet.cpp
 LevelSet.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Levelset/LevelSet.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Levelset/LevelSet.h
 Util/Util.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Levelset/Util/Util.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Levelset/Util/Util.h
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Levelset/LevelSet.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Levelset/LevelSet.h
 Geometry/Implicit.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Levelset/Geometry/Implicit.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Levelset/Geometry/Implicit.h
 Levelset/LevelSetGrid.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Levelset/Levelset/LevelSetGrid.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Levelset/Levelset/LevelSetGrid.h
 iostream
 -
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Levelset/LevelSetGrid.cpp
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Levelset/LevelSetGrid.cpp
 LevelSetGrid.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Levelset/LevelSetGrid.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Levelset/LevelSetGrid.h
 Util/Util.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Levelset/Util/Util.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Levelset/Util/Util.h
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Levelset/LevelSetGrid.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Levelset/LevelSetGrid.h
 Math/Vector3.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Levelset/Math/Vector3.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Levelset/Math/Vector3.h
 Math/Volume.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Levelset/Math/Volume.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Levelset/Math/Volume.h
 Util/BitMask3D.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Levelset/Util/BitMask3D.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Levelset/Util/BitMask3D.h
 iostream
 -
 limits
 -
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Levelset/LevelSetOperator.cpp
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Levelset/LevelSetOperator.cpp
 LevelSetOperator.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Levelset/LevelSetOperator.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Levelset/LevelSetOperator.h
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Levelset/LevelSetOperator.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Levelset/LevelSetOperator.h
 Levelset/LevelSet.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Levelset/Levelset/LevelSet.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Levelset/Levelset/LevelSet.h
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Math/TrilinearInterpolator.cpp
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Math/TrilinearInterpolator.cpp
 TrilinearInterpolator.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Math/TrilinearInterpolator.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Math/TrilinearInterpolator.h
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Math/TrilinearInterpolator.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Math/TrilinearInterpolator.h
 Math/Interpolator.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Math/Math/Interpolator.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Math/Math/Interpolator.h
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Subdivision/AdaptiveLoopSubdivisionMesh.cpp
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Subdivision/AdaptiveLoopSubdivisionMesh.cpp
 Subdivision/AdaptiveLoopSubdivisionMesh.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Subdivision/Subdivision/AdaptiveLoopSubdivisionMesh.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Subdivision/Subdivision/AdaptiveLoopSubdivisionMesh.h
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Subdivision/LoopSubdivisionMesh.cpp
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Subdivision/LoopSubdivisionMesh.cpp
 LoopSubdivisionMesh.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Subdivision/LoopSubdivisionMesh.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Subdivision/LoopSubdivisionMesh.h
 cassert
 -
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Subdivision/LoopSubdivisionMesh.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Subdivision/LoopSubdivisionMesh.h
 Geometry/HalfEdgeMesh.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Subdivision/Geometry/HalfEdgeMesh.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Subdivision/Geometry/HalfEdgeMesh.h
 Subdivision.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Subdivision/Subdivision.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Subdivision/Subdivision.h
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Subdivision/Subdivision.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Subdivision/Subdivision.h
 Geometry/Geometry.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Subdivision/Geometry/Geometry.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Subdivision/Geometry/Geometry.h
 typeinfo
 -
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Subdivision/UniformCubicSpline.cpp
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Subdivision/UniformCubicSpline.cpp
 UniformCubicSpline.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Subdivision/UniformCubicSpline.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Subdivision/UniformCubicSpline.h
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Subdivision/UniformCubicSpline.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Subdivision/UniformCubicSpline.h
 Geometry/Geometry.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Subdivision/Geometry/Geometry.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Subdivision/Geometry/Geometry.h
 Geometry/LineStrip.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Subdivision/Geometry/LineStrip.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Subdivision/Geometry/LineStrip.h
 Math/Vector3.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Subdivision/Math/Vector3.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Subdivision/Math/Vector3.h
 cmath
 -
 iostream
@@ -1178,19 +1178,19 @@ iostream
 vector
 -
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Subdivision/UniformCubicSplineSubdivisionCurve.cpp
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Subdivision/UniformCubicSplineSubdivisionCurve.cpp
 UniformCubicSplineSubdivisionCurve.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Subdivision/UniformCubicSplineSubdivisionCurve.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Subdivision/UniformCubicSplineSubdivisionCurve.h
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Subdivision/UniformCubicSplineSubdivisionCurve.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Subdivision/UniformCubicSplineSubdivisionCurve.h
 Geometry/Geometry.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Subdivision/Geometry/Geometry.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Subdivision/Geometry/Geometry.h
 Geometry/LineStrip.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Subdivision/Geometry/LineStrip.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Subdivision/Geometry/LineStrip.h
 Math/Vector3.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Subdivision/Math/Vector3.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Subdivision/Math/Vector3.h
 Subdivision.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Subdivision/Subdivision.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Subdivision/Subdivision.h
 cassert
 -
 cmath
@@ -1200,29 +1200,29 @@ iostream
 vector
 -
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Util/BlackWhiteColorMap.cpp
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Util/BlackWhiteColorMap.cpp
 Util/BlackWhiteColorMap.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Util/Util/BlackWhiteColorMap.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Util/Util/BlackWhiteColorMap.h
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Util/ColorMap.cpp
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Util/ColorMap.cpp
 ColorMap.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Util/ColorMap.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Util/ColorMap.h
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Util/ColorMap.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Util/ColorMap.h
 Math/Vector3.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Util/Math/Vector3.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Util/Math/Vector3.h
 Util/Util.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Util/Util/Util.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Util/Util/Util.h
 vector
 -
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Util/ColorMapFactory.cpp
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Util/ColorMapFactory.cpp
 ColorMapFactory.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Util/ColorMapFactory.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Util/ColorMapFactory.h
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Util/ColorMapFactory.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Util/ColorMapFactory.h
 Util/ColorMap.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Util/Util/ColorMap.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Util/Util/ColorMap.h
 list
 -
 map
@@ -1230,29 +1230,29 @@ map
 string
 -
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Util/Console.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Util/Console.h
 fstream
 -
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Util/GLObjectPlayback.cpp
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Util/GLObjectPlayback.cpp
 Util/GLObjectPlayback.h
 -
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Util/GreenRedColorMap.cpp
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Util/GreenRedColorMap.cpp
 Util/GreenRedColorMap.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Util/Util/GreenRedColorMap.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Util/Util/GreenRedColorMap.h
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Util/HSVColorMap.cpp
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Util/HSVColorMap.cpp
 Util/HSVColorMap.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Util/Util/HSVColorMap.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Util/Util/HSVColorMap.h
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Util/Heap.cpp
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Util/Heap.cpp
 Heap.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Util/Heap.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Util/Heap.h
 cassert
 -
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Util/Heap.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Util/Heap.h
 iostream
 -
 limits
@@ -1260,39 +1260,39 @@ limits
 vector
 -
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Util/HotColorMap.cpp
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Util/HotColorMap.cpp
 Util/HotColorMap.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Util/Util/HotColorMap.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Util/Util/HotColorMap.h
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Util/IsoContourColorMap.cpp
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Util/IsoContourColorMap.cpp
 Util/IsoContourColorMap.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Util/Util/IsoContourColorMap.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Util/Util/IsoContourColorMap.h
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Util/JetColorMap.cpp
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Util/JetColorMap.cpp
 Util/JetColorMap.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Util/Util/JetColorMap.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Util/Util/JetColorMap.h
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Util/MarchingCubes.cpp
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Util/MarchingCubes.cpp
 MarchingCubes.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Util/MarchingCubes.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Util/MarchingCubes.h
 MarchingCubesTable.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Util/MarchingCubesTable.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Util/MarchingCubesTable.h
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Util/MarchingCubes.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Util/MarchingCubes.h
 Math/Vector3.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Util/Math/Vector3.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Util/Math/Vector3.h
 Util/Util.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Util/Util/Util.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Util/Util/Util.h
 vector
 -
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Util/MarchingCubesTable.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Util/MarchingCubesTable.h
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Util/ObjIO.cpp
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Util/ObjIO.cpp
 ObjIO.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Util/ObjIO.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Util/ObjIO.h
 Geometry/HalfEdgeMesh.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Util/Geometry/HalfEdgeMesh.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Util/Geometry/HalfEdgeMesh.h
 cassert
 -
 iostream
@@ -1304,11 +1304,11 @@ string
 vector
 -
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Util/ObjIO.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Util/ObjIO.h
 Geometry/Mesh.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Util/Geometry/Mesh.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Util/Geometry/Mesh.h
 Math/Vector3.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Util/Math/Vector3.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Util/Math/Vector3.h
 algorithm
 -
 fstream
@@ -1318,11 +1318,11 @@ iostream
 string
 -
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Util/Util.cpp
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Util/Util.cpp
 Util.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Util/Util.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Util/Util.h
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Util/Util.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Util/Util.h
 algorithm
 -
 cmath
@@ -1332,21 +1332,21 @@ functional
 string
 -
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Util/trackball.cpp
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Util/trackball.cpp
 trackball.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Util/trackball.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Util/trackball.h
 cmath
 -
 
-/home/jakob/Documents/University/TNM079/tnm079-student/Util/trackball.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Util/trackball.h
 
-/home/jakob/Documents/University/TNM079/tnm079-student/main.cpp
+/home/jakob/Documents/University/TNM079/TNM079-Labs/main.cpp
 GUI/FrameMain.h
-/home/jakob/Documents/University/TNM079/tnm079-student/GUI/FrameMain.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/GUI/FrameMain.h
 wx/wx.h
 -
 Util/Console.h
-/home/jakob/Documents/University/TNM079/tnm079-student/Util/Console.h
+/home/jakob/Documents/University/TNM079/TNM079-Labs/Util/Console.h
 
 /usr/include/wx-3.0/wx/accel.h
 wx/defs.h

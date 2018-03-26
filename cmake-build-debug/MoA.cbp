@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="MoA"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\CMake\;CMake Files\Decimation\;CMake Files\Fluid\;CMake Files\Geometry\;CMake Files\GUI\;CMake Files\Levelset\;CMake Files\Math\;CMake Files\Subdivision\;CMake Files\Util\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/jakob/Documents/University/TNM079/tnm079-student/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jakob/Documents/University/TNM079/tnm079-student/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jakob/Documents/University/TNM079/tnm079-student/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jakob/Documents/University/TNM079/tnm079-student/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jakob/Documents/University/TNM079/tnm079-student/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/jakob/Documents/University/TNM079/tnm079-student/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jakob/Documents/University/TNM079/tnm079-student/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jakob/Documents/University/TNM079/tnm079-student/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jakob/Documents/University/TNM079/tnm079-student/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jakob/Documents/University/TNM079/tnm079-student/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/jakob/Documents/University/TNM079/tnm079-student/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jakob/Documents/University/TNM079/tnm079-student/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jakob/Documents/University/TNM079/tnm079-student/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jakob/Documents/University/TNM079/tnm079-student/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jakob/Documents/University/TNM079/tnm079-student/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MoA">
+				<Option output="/home/jakob/Documents/University/TNM079/tnm079-student/cmake-build-debug/bin/MoA" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jakob/Documents/University/TNM079/tnm079-student/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-DWXUSINGDLL"/>
+					<Add option="-D__WXGTK__"/>
+					<Add option="-DLAB1"/>
+					<Add option="-DLAB2"/>
+					<Add option="-DLAB3"/>
+					<Add option="-DLAB4"/>
+					<Add option="-DLAB5"/>
+					<Add option="-DLAB6"/>
+					<Add option="-DFREEGLUT_STATIC"/>
+					<Add option="-D_USE_MATH_DEFINES"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add option="-D_SCL_SECURE_NO_WARNINGS"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/wx/include/gtk2-unicode-3.0"/>
+					<Add directory="/usr/include/wx-3.0"/>
+					<Add directory="/home/jakob/Documents/University/TNM079/tnm079-student/."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jakob/Documents/University/TNM079/tnm079-student/cmake-build-debug/Makefile&quot;  VERBOSE=1 MoA"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jakob/Documents/University/TNM079/tnm079-student/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jakob/Documents/University/TNM079/tnm079-student/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jakob/Documents/University/TNM079/tnm079-student/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MoA/fast">
+				<Option output="/home/jakob/Documents/University/TNM079/tnm079-student/cmake-build-debug/bin/MoA" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jakob/Documents/University/TNM079/tnm079-student/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-DWXUSINGDLL"/>
+					<Add option="-D__WXGTK__"/>
+					<Add option="-DLAB1"/>
+					<Add option="-DLAB2"/>
+					<Add option="-DLAB3"/>
+					<Add option="-DLAB4"/>
+					<Add option="-DLAB5"/>
+					<Add option="-DLAB6"/>
+					<Add option="-DFREEGLUT_STATIC"/>
+					<Add option="-D_USE_MATH_DEFINES"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add option="-D_SCL_SECURE_NO_WARNINGS"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/wx/include/gtk2-unicode-3.0"/>
+					<Add directory="/usr/include/wx-3.0"/>
+					<Add directory="/home/jakob/Documents/University/TNM079/tnm079-student/."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jakob/Documents/University/TNM079/tnm079-student/cmake-build-debug/Makefile&quot;  VERBOSE=1 MoA/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jakob/Documents/University/TNM079/tnm079-student/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jakob/Documents/University/TNM079/tnm079-student/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jakob/Documents/University/TNM079/tnm079-student/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Decimation/DecimationInterface.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Decimation/DecimationMesh.cpp">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Decimation/DecimationMesh.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Decimation/QuadricDecimationMesh.cpp">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Decimation/QuadricDecimationMesh.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Decimation/SimpleDecimationMesh.cpp">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Decimation/SimpleDecimationMesh.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Fluid/FluidSolver.cpp">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Fluid/FluidSolver.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/GUI/FluidVoxelCutPlane.cpp">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/GUI/FluidVoxelCutPlane.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/GUI/FrameMain.cpp">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/GUI/FrameMain.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/GUI/GLAxis.cpp">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/GUI/GLAxis.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/GUI/GLCamera.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/GUI/GLGridPlane.cpp">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/GUI/GLGridPlane.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/GUI/GLObject.cpp">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/GUI/GLObject.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/GUI/GLViewer.cpp">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/GUI/GLViewer.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/GUI/GUI.cpp">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/GUI/GUI.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/GUI/ScalarCutPlane.cpp">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/GUI/ScalarCutPlane.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/GUI/VectorCutPlane.cpp">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/GUI/VectorCutPlane.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/Bbox.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/CSG.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/Cube.cpp">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/Cube.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/Geometry.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/HalfEdgeMesh.cpp">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/HalfEdgeMesh.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/Implicit.cpp">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/Implicit.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/ImplicitGradientField.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/ImplicitMesh.cpp">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/ImplicitMesh.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/ImplicitValueField.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/LineStrip.cpp">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/LineStrip.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/Mesh.cpp">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/Mesh.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/Quadric.cpp">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/Quadric.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/SignedDistanceSphere.cpp">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/SignedDistanceSphere.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/SimpleMesh.cpp">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/SimpleMesh.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/Sphere.cpp">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/Sphere.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/SphereFractal.cpp">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/SphereFractal.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Levelset/LevelSet.cpp">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Levelset/LevelSet.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Levelset/LevelSetGrid.cpp">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Levelset/LevelSetGrid.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Levelset/LevelSetOperator.cpp">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Levelset/LevelSetOperator.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Levelset/OperatorAdvect.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Levelset/OperatorDilateErode.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Levelset/OperatorMeanCurvatureFlow.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Levelset/OperatorMorph.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Levelset/OperatorReinitialize.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Math/ConjugateGradient.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Math/ConstantVectorField.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Math/Function3D.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Math/Interpolator.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Math/Matrix4x4.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Math/Matrix4x4_Impl.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Math/TrilinearInterpolator.cpp">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Math/TrilinearInterpolator.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Math/Vector3.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Math/Vector4.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Math/Volume.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Math/VortexVectorField.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Subdivision/AdaptiveLoopSubdivisionMesh.cpp">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Subdivision/AdaptiveLoopSubdivisionMesh.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Subdivision/LoopSubdivisionMesh.cpp">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Subdivision/LoopSubdivisionMesh.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Subdivision/StrangeSubdivisionMesh.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Subdivision/Subdivision.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Subdivision/UniformCubicSpline.cpp">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Subdivision/UniformCubicSpline.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Subdivision/UniformCubicSplineSubdivisionCurve.cpp">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Subdivision/UniformCubicSplineSubdivisionCurve.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Util/BitMask3D.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Util/BlackWhiteColorMap.cpp">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Util/BlackWhiteColorMap.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Util/ColorMap.cpp">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Util/ColorMap.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Util/ColorMapFactory.cpp">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Util/ColorMapFactory.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Util/GLObjectPlayback.cpp">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Util/GLObjectPlayback.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Util/GreenRedColorMap.cpp">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Util/GreenRedColorMap.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Util/HSVColorMap.cpp">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Util/HSVColorMap.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Util/Heap.cpp">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Util/Heap.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Util/HotColorMap.cpp">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Util/HotColorMap.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Util/IsoContourColorMap.cpp">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Util/IsoContourColorMap.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Util/JetColorMap.cpp">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Util/JetColorMap.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Util/MarchingCubes.cpp">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Util/MarchingCubes.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Util/MarchingCubesTable.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Util/ObjIO.cpp">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Util/ObjIO.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Util/Stopwatch.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Util/Util.cpp">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Util/Util.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Util/trackball.cpp">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Util/trackball.h">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/main.cpp">
+			<Option target="MoA"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/CMake/FindwxWidgets.cmake">
+			<Option virtualFolder="CMake Files\CMake\"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Decimation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Decimation\"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Fluid/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Fluid\"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Geometry/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Geometry\"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/GUI/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\GUI\"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Levelset/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Levelset\"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Math/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Math\"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Subdivision/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Subdivision\"/>
+		</Unit>
+		<Unit filename="/home/jakob/Documents/University/TNM079/tnm079-student/Util/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Util\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,3 @@
+/home/jakob/Documents/University/TNM079/tnm079-student/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/jakob/Documents/University/TNM079/tnm079-student/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/jakob/Documents/University/TNM079/tnm079-student/cmake-build-debug/CMakeFiles/MoA.dir

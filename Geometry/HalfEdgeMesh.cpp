@@ -61,7 +61,7 @@ bool HalfEdgeMesh::AddFace(const std::vector<Vector3<float> > &verts) {
     Face f1;
     f1.edge = e11;
 
-    mFaces.push_back(f1);F
+    mFaces.push_back(f1);
     mFaces.back().normal = FaceNormal(mFaces.size()-1);
 
     // All half-edges share the same left face (previously added)
@@ -295,7 +295,33 @@ std::vector<size_t> HalfEdgeMesh::FindNeighborFaces(size_t vertexIndex) const {
 /*! \lab1 Implement the curvature */
 float HalfEdgeMesh::VertexCurvature(size_t vertexIndex) const {
     // Copy code from SimpleMesh or compute more accurate estimate
-    return 0;
+
+	std::vector<size_t> oneRing = FindNeighborVertices(vertexIndex);
+	assert(oneRing.size() != 0);
+
+	size_t curr, next;
+	const Vector3<float> &vi = mVerts.at(vertexIndex).pos;
+	float angleSum = 0;
+	float area = 0;
+	for (size_t i = 0; i < oneRing.size(); i++) {
+		// connections
+		curr = oneRing.at(i);
+		if (i < oneRing.size() - 1)
+			next = oneRing.at(i + 1);
+		else
+			next = oneRing.front();
+
+		// find vertices in 1-ring according to figure 5 in lab text
+		// next - beta
+		const Vector3<float> &nextPos = mVerts.at(next).pos;
+		const Vector3<float> &vj = mVerts.at(curr).pos;
+
+		// compute angle and area
+		angleSum += acos((vj - vi) * (nextPos - vi) /
+			((vj - vi).Length() * (nextPos - vi).Length()));
+		area += Cross((vi - vj), (nextPos - vj)).Length() * 0.5f;
+	}
+	return (2.0f * static_cast<float>(M_PI) - angleSum) / area;
 }
 
 float HalfEdgeMesh::FaceCurvature(size_t faceIndex) const {
@@ -440,9 +466,14 @@ float HalfEdgeMesh::Volume() const {
         HalfEdge e3 = e(e2.next);
         area = 0.5f * Cross(v(e1.vert).pos-v(e2.vert).pos, v(e2.vert).pos-v(e3.vert).pos).Length();
         getFaceVertices(static_cast<size_t>(face - mFaces.begin()), v1, v2, v3);
+
+		std::cout << "Nu kor vi: " << ((v(v1).pos + v(v2).pos + v(v3).pos) / 3) * (*face).normal * area << std::endl;
+
         volume += ( ((v(v1).pos+v(v2).pos+v(v3).pos)/3) * (*face).normal ) * area;
+
     }
 
+	std::cout << "volume: " << volume << std::endl;
     return volume/3;
 }
 

@@ -61,14 +61,13 @@ bool HalfEdgeMesh::AddFace(const std::vector<Vector3<float> > &verts) {
     Face f1;
     f1.edge = e11;
 
-    mFaces.push_back(f1);
+    mFaces.push_back(f1);F
     mFaces.back().normal = FaceNormal(mFaces.size()-1);
 
     // All half-edges share the same left face (previously added)
     e(e11).face = mFaces.size()-1;
     e(e21).face = mFaces.size()-1;
     e(e31).face = mFaces.size()-1;
-
     // Optionally, track the (outer) boundary half-edges
     // to represent non-closed surfaces
     return true;
@@ -81,7 +80,7 @@ bool HalfEdgeMesh::AddFace(const std::vector<Vector3<float> > &verts) {
  * inserted (true) or already existed (false)
  */
 bool HalfEdgeMesh::AddVertex(const Vector3<float> &v, size_t &indx) {
-    std::map<Vector3<float>, size_t>::iterator it = mUniqueVerts.find(v);
+    auto it = mUniqueVerts.find(v);
     if (it != mUniqueVerts.end()) {
         indx = (*it).second; // get the index of the already existing vertex
         return false;
@@ -256,28 +255,16 @@ HalfEdgeMesh::FindNeighborVertices(size_t vertexIndex) const {
 
     size_t currVert=0;
 
-    // pick next counter clock wise vert
-    size_t v1,v2,v3;
-    getFaceVertices(neighborFaces.at(0), v1,v2,v3);
-    if (v1 == vertexIndex)
-        currVert = v2;
-    if (v2 == vertexIndex)
-        currVert = v3;
-    if (v3 == vertexIndex)
-        currVert = v1;
-    oneRing.push_back(currVert);
-
-    // collect one ring vertices
-    for (size_t i = 0; i < neighborFaces.size() - 1; i++) {
-        getFaceVertices(i, v1,v2,v3);
-        if (v1 == currVert)
-            currVert = v2;
-        else if (v2 == currVert)
-            currVert = v3;
-        else if (v3 == currVert)
-            currVert = v1;
-        oneRing.push_back(currVert);
-    }
+    HalfEdge edge = e(e(v(vertexIndex).edge).next);
+    size_t startvertex = edge.vert;
+    size_t vertex = startvertex;
+    do{
+        oneRing.push_back(vertex);
+        edge = e(edge.next);
+        edge = e(edge.pair);
+        edge = e(edge.next);
+        vertex = edge.vert;
+    }while(vertex != startvertex);
 
     return oneRing;
 }
@@ -291,61 +278,15 @@ std::vector<size_t> HalfEdgeMesh::FindNeighborFaces(size_t vertexIndex) const {
     // Collected faces, sorted counter clockwise!
     std::vector<size_t> foundFaces;
 
-    // Find other triangles that include this vertex
-    auto iter = mFaces.begin();
-    auto iend = mFaces.end();
-
-    while (iter != iend) {
-
-        size_t edge1 = (*iter).edge;
-        size_t edge2 = e(edge1).next;
-        size_t edge3 = e(edge2).next;
-        if( e(edge1).vert == vertexIndex ||
-            e(edge2).vert == vertexIndex ||
-            e(edge3).vert == vertexIndex) {
-            foundFaces.push_back(iter - mFaces.begin());
-        }
-        iter++;
-    }
-
-    // Pick prev vertex
-    size_t currVertex = 0;
-    size_t v1, v2, v3;
-    getFaceVertices(0, v1, v2, v3);
-
-    if (vertexIndex == v1)
-        currVertex = v3;
-    else if (vertexIndex == v2)
-        currVertex = v1;
-    else if (vertexIndex == v3)
-        currVertex = v2;
-
-    for (size_t i = 1; i < foundFaces.size() - 1; i++) {
-        for (size_t j = i; j < foundFaces.size(); j++) {
-            getFaceVertices(foundFaces.at(j), v1, v2, v3);
-            if (v1 == currVertex) {
-                // pick the next vert
-                currVertex = v2;
-                // and swap
-                std::swap(foundFaces.at(i), foundFaces.at(j));
-                break;
-            }
-            if (v2 == currVertex) {
-                // pick the next vert
-                currVertex = v3;
-                // and swap
-                std::swap(foundFaces.at(i), foundFaces.at(j));
-                break;
-            }
-            if (v3 == currVertex) {
-                // pick the next vert
-                currVertex = v1;
-                // and swap
-                std::swap(foundFaces.at(i), foundFaces.at(j));
-                break;
-            }
-        }
-    }
+    HalfEdge edge = e(v(vertexIndex).edge);
+    size_t startface = edge.face;
+    size_t face = startface;
+    do{
+        foundFaces.push_back(face);
+        edge = e(edge.prev);
+        edge = e(edge.pair);
+        face = edge.face;
+    }while(face != startface);
     
     // Add your code here
     return foundFaces;
@@ -379,6 +320,7 @@ Vector3<float> HalfEdgeMesh::FaceNormal(size_t faceIndex) const {
 
     const Vector3<float> e1 = p2 - p1;
     const Vector3<float> e2 = p3 - p1;
+
     return Cross(e1, e2).Normalize();
 }
 
@@ -386,6 +328,12 @@ Vector3<float> HalfEdgeMesh::VertexNormal(size_t vertexIndex) const {
 
     Vector3<float> n(0, 0, 0);
 
+    std::vector<size_t> faces = FindNeighborVertices(vertexIndex);
+
+    for (unsigned long face : faces) {
+        n += f(face).normal;
+    }
+    n.Normalize();
     // Add your code here
     return n;
 }
@@ -470,16 +418,32 @@ void HalfEdgeMesh::Update() {
 float HalfEdgeMesh::Area() const {
     float area = 0;
     // Add code here
-    std::cerr << "Area calculation not implemented for half-edge mesh!\n";
+    for(const auto &face : mFaces){
+        HalfEdge e1 = e(face.edge);
+        HalfEdge e2 = e(e1.next);
+        HalfEdge e3 = e(e2.next);
+        area += 0.5f * Cross(v(e1.vert).pos-v(e2.vert).pos, v(e2.vert).pos-v(e3.vert).pos).Length();
+    }
+
     return area;
 }
 
 /*! \lab1 Implement the volume */
 float HalfEdgeMesh::Volume() const {
     float volume = 0;
+    float area = 0;
+    size_t v1,v2,v3;
     // Add code here
-    std::cerr << "Volume calculation not implemented for half-edge mesh!\n";
-    return volume;
+    for(auto face = mFaces.begin();face != mFaces.end(); face++){
+        HalfEdge e1 = e((*face).edge);
+        HalfEdge e2 = e(e1.next);
+        HalfEdge e3 = e(e2.next);
+        area = 0.5f * Cross(v(e1.vert).pos-v(e2.vert).pos, v(e2.vert).pos-v(e3.vert).pos).Length();
+        getFaceVertices(static_cast<size_t>(face - mFaces.begin()), v1, v2, v3);
+        volume += ( ((v(v1).pos+v(v2).pos+v(v3).pos)/3) * (*face).normal ) * area;
+    }
+
+    return volume/3;
 }
 
 /*! \lab1 Calculate the number of shells  */

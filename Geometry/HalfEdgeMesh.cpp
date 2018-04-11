@@ -250,7 +250,7 @@ void HalfEdgeMesh::Validate() {
 std::vector<size_t>
 HalfEdgeMesh::FindNeighborVertices(size_t vertexIndex) const {
     // Collected vertices, sorted counter clockwise!
-    std::vector<size_t> neighborFaces = FindNeighborFaces(vertexIndex);
+   // std::vector<size_t> neighborFaces = FindNeighborFaces(vertexIndex);
     std::vector<size_t> oneRing;
 
     size_t currVert=0;

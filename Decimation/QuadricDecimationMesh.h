@@ -44,7 +44,7 @@ protected:
   //! Update vertex properties. Used after an edge collapse
   virtual void updateVertexProperties(size_t ind);
   //! Compute the quadric for a vertex
-  Matrix4x4<float> createQuadricForVert(size_t indx) const;
+  Matrix4x4<float> createQuadricForVert(size_t vindx) const;
   //! Copmute the quadric for a face
   Matrix4x4<float> createQuadricForFace(size_t indx) const;
   //! Render (redefined)

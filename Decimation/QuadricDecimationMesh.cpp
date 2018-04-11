@@ -48,8 +48,15 @@ void QuadricDecimationMesh::Initialize() {
 void QuadricDecimationMesh::computeCollapse(EdgeCollapse *collapse) {
   // Compute collapse->position and collapse->cost here
   // based on the quadrics at the edge endpoints
+  size_t v1 = e(collapse->halfEdge).vert;
+  size_t v2 = e(e(collapse->halfEdge).pair).vert;
+  Matrix4x4<float> edgeQ = createQuadricForVert(v1);
+  edgeQ += createQuadricForVert(v2);
 
-  std::cerr << "computeCollapse in QuadricDecimationMesh not implemented.\n";
+  Vector3<float> newPos = (v(v1).pos + v(v2).pos) * 0.5f;
+  collapse->position = newPos;
+  Vector4<float> pos{newPos[0], newPos[1], newPos[2], 1};
+  collapse->cost = pos * (edgeQ * pos) ;
 }
 
 /*! After each edge collapse the vertex properties need to be updated */
@@ -62,12 +69,20 @@ void QuadricDecimationMesh::updateVertexProperties(size_t ind) {
  * \param[in] indx vertex index, points into HalfEdgeMesh::mVerts
  */
 Matrix4x4<float>
-QuadricDecimationMesh::createQuadricForVert(size_t indx) const {
+QuadricDecimationMesh::createQuadricForVert(size_t vindx) const {
   float q[4][4] = {{0, 0, 0, 0}, {0, 0, 0, 0}, {0, 0, 0, 0}, {0, 0, 0, 0}};
   Matrix4x4<float> Q(q);
 
   // The quadric for a vertex is the sum of all the quadrics for the adjacent
   // faces Tip: Matrix4x4 has an operator +=
+  std::vector<size_t> faces = FindNeighborFaces(vindx);
+
+  Vector4<float> ver {v(vindx).pos[0], v(vindx).pos[1], v(vindx).pos[2], 1.0f};
+
+  std::for_each(faces.begin(), faces.end(),
+    [&Q, this](size_t findx){Q += this->createQuadricForFace(findx);}
+  );
+
   return Q;
 }
 
@@ -79,7 +94,17 @@ QuadricDecimationMesh::createQuadricForFace(size_t indx) const {
 
   // Calculate the quadric (outer product of plane parameters) for a face
   // here using the formula from Garland and Heckbert
-  return Matrix4x4<float>();
+  Vector3<float> n = f(indx).normal;
+  Vector3<float> ver = v(e(f(indx).edge).vert).pos;
+
+
+  float p[4] = {n[0], n[1], n[2], n*ver};
+  float k[4][4] = {{p[0]*p[0], p[0]*p[1], p[0]*p[2], p[0]*p[3]},
+                   {p[1]*p[0], p[1]*p[1], p[1]*p[2], p[1]*p[3]},
+                   {p[2]*p[0], p[2]*p[1], p[2]*p[2], p[2]*p[3]},
+                   {p[3]*p[0], p[3]*p[1], p[3]*p[2], p[3]*p[3]}};
+
+  return Matrix4x4<float>{k};
 }
 
 void QuadricDecimationMesh::Render() {

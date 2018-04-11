@@ -160,7 +160,7 @@ bool DecimationMesh::decimate(size_t targetFaces) {
 
 bool DecimationMesh::decimate() {
   EdgeCollapse *collapse = static_cast<EdgeCollapse *>(mHeap.pop());
-  if (collapse == NULL)
+  if (collapse == nullptr)
     return false;
 
   // Stop the collapse when we only have two triangles left

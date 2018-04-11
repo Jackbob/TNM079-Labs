@@ -352,7 +352,7 @@ Vector3<float> HalfEdgeMesh::FaceNormal(size_t faceIndex) const {
 
 Vector3<float> HalfEdgeMesh::VertexNormal(size_t vertexIndex) const {
 
-    Vector3<float> n(0, 0, 0);
+    Vector3<float> n(0.0f, 0.0f, 0.0f);
 
     std::vector<size_t> faces = FindNeighborVertices(vertexIndex);
 
@@ -466,8 +466,6 @@ float HalfEdgeMesh::Volume() const {
         HalfEdge e3 = e(e2.next);
         area = 0.5f * Cross(v(e1.vert).pos-v(e2.vert).pos, v(e2.vert).pos-v(e3.vert).pos).Length();
         getFaceVertices(static_cast<size_t>(face - mFaces.begin()), v1, v2, v3);
-
-		std::cout << "Nu kor vi: " << ((v(v1).pos + v(v2).pos + v(v3).pos) / 3) * (*face).normal * area << std::endl;
 
         volume += ( ((v(v1).pos+v(v2).pos+v(v3).pos)/3) * (*face).normal ) * area;
 

@@ -50,13 +50,26 @@ void QuadricDecimationMesh::computeCollapse(EdgeCollapse *collapse) {
   // based on the quadrics at the edge endpoints
   size_t v1 = e(collapse->halfEdge).vert;
   size_t v2 = e(e(collapse->halfEdge).pair).vert;
-  Matrix4x4<float> edgeQ = createQuadricForVert(v1);
-  edgeQ += createQuadricForVert(v2);
+  Matrix4x4<float> edgeQ = mQuadrics[v1];
+  edgeQ += mQuadrics[v2];
+  Matrix4x4<float> costQ = edgeQ;
+  edgeQ(3,0) = 0.0f;
+  edgeQ(3,1) = 0.0f;
+  edgeQ(3,2) = 0.0f;
+  edgeQ(3,3) = 1.0f;
 
-  Vector3<float> newPos = (v(v1).pos + v(v2).pos) * 0.5f;
-  collapse->position = newPos;
-  Vector4<float> pos{newPos[0], newPos[1], newPos[2], 1};
-  collapse->cost = pos * (edgeQ * pos) ;
+  Vector4<float> newPos;
+
+  if(!edgeQ.IsSingular()) {
+    newPos = edgeQ.Inverse() * Vector4<float>{0.0f, 0.0f, 0.0f, 1.0f};
+    collapse->position = Vector3<float>(newPos[0], newPos[1], newPos[2]);
+  }
+  else{
+    collapse->position = (v(v1).pos + v(v2).pos) * 0.5f;
+    newPos = Vector4<float>{collapse->position[0], collapse->position[1], collapse->position[2], 1.0f};
+  }
+
+  collapse->cost = newPos * (costQ * newPos) ;
 }
 
 /*! After each edge collapse the vertex properties need to be updated */
@@ -77,8 +90,6 @@ QuadricDecimationMesh::createQuadricForVert(size_t vindx) const {
   // faces Tip: Matrix4x4 has an operator +=
   std::vector<size_t> faces = FindNeighborFaces(vindx);
 
-  Vector4<float> ver {v(vindx).pos[0], v(vindx).pos[1], v(vindx).pos[2], 1.0f};
-
   std::for_each(faces.begin(), faces.end(),
     [&Q, this](size_t findx){Q += this->createQuadricForFace(findx);}
   );
@@ -97,8 +108,7 @@ QuadricDecimationMesh::createQuadricForFace(size_t indx) const {
   Vector3<float> n = f(indx).normal;
   Vector3<float> ver = v(e(f(indx).edge).vert).pos;
 
-
-  float p[4] = {n[0], n[1], n[2], n*ver};
+  float p[4] = {n[0], n[1], n[2], -(n*ver)};
   float k[4][4] = {{p[0]*p[0], p[0]*p[1], p[0]*p[2], p[0]*p[3]},
                    {p[1]*p[0], p[1]*p[1], p[1]*p[2], p[1]*p[3]},
                    {p[2]*p[0], p[2]*p[1], p[2]*p[2], p[2]*p[3]},

@@ -222,11 +222,20 @@ protected:
   virtual void Smooth(wxCommandEvent &event) { event.Skip(); }
 
 public:
-  BaseFrameMain(wxWindow *parent, wxWindowID id = wxID_ANY,
+#ifdef __linux__
+    BaseFrameMain(wxWindow *parent, wxWindowID id = wxID_ANY,
+                  const wxString &title = wxT("Modeling & Animation"),
+                  const wxPoint &pos = wxDefaultPosition,
+                  const wxSize &size = wxSize(3000, 2000),
+                  long style = wxDEFAULT_FRAME_STYLE | wxTAB_TRAVERSAL);
+#else
+    BaseFrameMain(wxWindow *parent, wxWindowID id = wxID_ANY,
                 const wxString &title = wxT("Modeling & Animation"),
                 const wxPoint &pos = wxDefaultPosition,
                 const wxSize &size = wxSize(1500, 1000),
                 long style = wxDEFAULT_FRAME_STYLE | wxTAB_TRAVERSAL);
+#endif
+
   ~BaseFrameMain();
 };
 

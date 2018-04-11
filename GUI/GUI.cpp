@@ -196,7 +196,7 @@ BaseFrameMain::BaseFrameMain(wxWindow *parent, wxWindowID id,
   mPanelSideBar = new wxScrolledWindow(this, wxID_ANY, wxDefaultPosition,
                                        wxDefaultSize, wxVSCROLL);
   mPanelSideBar->SetScrollRate(5, 5);
-  mPanelSideBar->SetMinSize(wxSize(320, -1));
+  mPanelSideBar->SetMinSize(wxSize(500, -1));
 
   wxBoxSizer *bSizer2;
   bSizer2 = new wxBoxSizer(wxVERTICAL);

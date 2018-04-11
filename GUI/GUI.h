@@ -225,7 +225,7 @@ public:
   BaseFrameMain(wxWindow *parent, wxWindowID id = wxID_ANY,
                 const wxString &title = wxT("Modeling & Animation"),
                 const wxPoint &pos = wxDefaultPosition,
-                const wxSize &size = wxSize(800, 600),
+                const wxSize &size = wxSize(1500, 1000),
                 long style = wxDEFAULT_FRAME_STYLE | wxTAB_TRAVERSAL);
   ~BaseFrameMain();
 };

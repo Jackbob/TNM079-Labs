@@ -340,9 +340,9 @@ Vector3<float> HalfEdgeMesh::FaceNormal(size_t faceIndex) const {
     size_t indx = f(faceIndex).edge;
     const EdgeIterator it = GetEdgeIterator(indx);
 
-    const Vector3<float> &p1 = v(it.GetEdgeVertexIndex()).pos;
-    const Vector3<float> &p2 = v(it.Next().GetEdgeVertexIndex()).pos;
-    const Vector3<float> &p3 = v(it.Next().GetEdgeVertexIndex()).pos;
+    const Vector3<float> p1 = v(it.GetEdgeVertexIndex()).pos;
+    const Vector3<float> p2 = v(it.Next().GetEdgeVertexIndex()).pos;
+    const Vector3<float> p3 = v(it.Next().GetEdgeVertexIndex()).pos;
 
     const Vector3<float> e1 = p2 - p1;
     const Vector3<float> e2 = p3 - p1;

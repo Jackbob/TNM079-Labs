@@ -38,8 +38,8 @@ void LoopSubdivisionMesh::Subdivide() {
     std::vector<std::vector<Vector3<float>>> faces = Subdivide(i);
 
     // add new faces to subDivMesh
-    for (size_t j = 0; j < faces.size(); j++) {
-      subDivMesh.AddFace(faces.at(j));
+    for (const auto &face : faces) {
+      subDivMesh.AddFace(face);
     }
   }
 
@@ -107,7 +107,13 @@ LoopSubdivisionMesh::Subdivide(size_t faceIndex) {
  */
 Vector3<float> LoopSubdivisionMesh::VertexRule(size_t vertexIndex) {
   // Get the current vertex
-  Vector3<float> vtx = v(vertexIndex).pos;
+  std::vector<size_t> Nvert = FindNeighborVertices(vertexIndex);
+  size_t valence = Nvert.size();
+  float beta = Beta(valence);
+  Vector3<float> vtx {v(vertexIndex).pos*(1-valence*beta)};
+
+  for(const auto &vert : Nvert)
+    vtx += beta*v(vert).pos;
 
   return vtx;
 }
@@ -116,12 +122,19 @@ Vector3<float> LoopSubdivisionMesh::VertexRule(size_t vertexIndex) {
  */
 Vector3<float> LoopSubdivisionMesh::EdgeRule(size_t edgeIndex) {
 
-  // Place the edge vertex halfway along the edge
-  HalfEdge &e0 = e(edgeIndex);
-  HalfEdge &e1 = e(e0.pair);
-  Vector3<float> &v0 = v(e0.vert).pos;
-  Vector3<float> &v1 = v(e1.vert).pos;
-  return (v0 + v1) * 0.5f;
+  // Place the edge vertex with weighted averages of close vertices
+  HalfEdge e0 = e(edgeIndex);
+  HalfEdge e1 = e(e0.pair);
+  HalfEdge e2 = e(e0.prev);
+  HalfEdge e3 = e(e1.prev);
+
+  Vector3<float> v1, v2 ,v3 ,v4;
+  v1 = v(e0.vert).pos;
+  v2 = v(e1.vert).pos;
+  v3 = v(e2.vert).pos;
+  v4 = v(e3.vert).pos;
+
+  return 3.0f*(v1 + v2)/8.0f + (v3 + v4)/8.0f;
 }
 
 //! Return weights for interior verts

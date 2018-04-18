@@ -27,7 +27,7 @@ HalfEdgeMesh::~HalfEdgeMesh() {}
  */
 bool HalfEdgeMesh::AddFace(const std::vector<Vector3<float> > &verts) {
       // Add your code here
-    std::cerr << "ADD TRIANGLE NOT IMPLEMENTED. ";
+    //std::cerr << "ADD TRIANGLE NOT IMPLEMENTED. ";
 
     // Add the vertices of the face/triangle
     size_t v1, v2, v3;

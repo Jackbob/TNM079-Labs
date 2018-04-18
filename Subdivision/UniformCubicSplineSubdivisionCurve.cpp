@@ -15,7 +15,23 @@ void UniformCubicSplineSubdivisionCurve::Subdivide() {
 
   assert(mCoefficients.size() > 4 && "Need at least 5 points to subdivide");
 
+  int n {(int)mCoefficients.size()};
+  int newn{n*2-1};
+  newc.resize(newn);
+
   // Implement the subdivision scheme for a natural cubic spline here
+  for(int i=1; i<newn-1; i++){
+    if(i%2 == 0) {
+      int idx1{i/2-1}, idx2{i/2}, idx3{i/2+1};
+      newc[i] = (mCoefficients[idx1] + 6 * mCoefficients[idx2] + mCoefficients[idx3]) / 8;
+    }
+    else {
+      int idx1{i/2}, idx2{i/2+1};
+      newc[i] = (mCoefficients[idx1] + mCoefficients[idx2]) / 2;
+    }
+  }
+  newc[0] = mCoefficients[0];
+  newc[newn-1] = mCoefficients[n-1];
 
   // If 'mCoefficients' had size N, how large should 'newc' be? Perform a check
   // here!
@@ -42,8 +58,8 @@ void UniformCubicSplineSubdivisionCurve::Render() {
   glColor3fv(mLineColor.GetArrayPtr());
   glBegin(GL_LINE_STRIP);
   // just draw the spline as a series of connected linear segments
-  for (size_t i = 0; i < mCoefficients.size(); i++) {
-    glVertex3fv(mCoefficients.at(i).GetArrayPtr());
+  for (auto &mCoefficient : mCoefficients) {
+    glVertex3fv(mCoefficient.GetArrayPtr());
   }
   glEnd();
 

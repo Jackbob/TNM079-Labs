@@ -78,7 +78,7 @@ public:
 	  
 	  Implicit::TransformW2O(x, y, z);
 
-	  return std::min(left->GetValue(x, y, z), -right->GetValue(x, y, z));
+	  return std::max(left->GetValue(x, y, z), -right->GetValue(x, y, z));
   }
 };
 

@@ -36,6 +36,11 @@ public:
   }
 
   virtual float GetValue(float x, float y, float z) const {
+
+	Implicit::TransformW2O(x, y, z);
+
+	return std::min(left->GetValue(x, y, z), right->GetValue(x, y, z));
+
     // The coordinates (x,y,z) are passed in from world space,
     // remember to transform them into object space
     // (Hint: Implicit::TransformW2O()). This
@@ -43,7 +48,6 @@ public:
     // and can be transformed like all implicit surfaces.
     // Then, get values from left and right children and perform the
     // boolean operation.
-    return 0;
   }
 };
 
@@ -54,7 +58,13 @@ public:
     mBox = BoxIntersection(l->GetBoundingBox(), r->GetBoundingBox());
   }
 
-  virtual float GetValue(float x, float y, float z) const { return 0; }
+  virtual float GetValue(float x, float y, float z) const {
+	  
+	  Implicit::TransformW2O(x, y, z);
+
+	  return std::max(left->GetValue(x, y, z), right->GetValue(x, y, z));
+  
+  }
 };
 
 /*! \brief Difference boolean operation */
@@ -64,7 +74,12 @@ public:
     mBox = l->GetBoundingBox();
   }
 
-  virtual float GetValue(float x, float y, float z) const { return 0; }
+  virtual float GetValue(float x, float y, float z) const { 
+	  
+	  Implicit::TransformW2O(x, y, z);
+
+	  return std::min(left->GetValue(x, y, z), -right->GetValue(x, y, z));
+  }
 };
 
 /*! \brief BlendedUnion boolean operation */

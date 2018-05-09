@@ -63,38 +63,38 @@ public:
   inline const float GetDx() const { return mDx; }
 
   //! First order negative differential in x
-  float DiffXm(size_t i, size_t j, size_t k) const;
+  float DiffXm(int i, int j, int k) const;
   //! First order positive differential in x
-  float DiffXp(size_t i, size_t j, size_t k) const;
+  float DiffXp(int i, int j, int k) const;
   //! Second order central differential in x
-  float DiffXpm(size_t i, size_t j, size_t k) const;
+  float DiffXpm(int i, int j, int k) const;
   //! Second order second central differential in x
-  float Diff2Xpm(size_t i, size_t j, size_t k) const;
+  float Diff2Xpm(int i, int j, int k) const;
 
   //! First order negative differential in y
-  float DiffYm(size_t i, size_t j, size_t k) const;
+  float DiffYm(int i, int j, int k) const;
   //! First order positive differential in y
-  float DiffYp(size_t i, size_t j, size_t k) const;
+  float DiffYp(int i, int j, int k) const;
   //! Second order central differential in y
-  float DiffYpm(size_t i, size_t j, size_t k) const;
+  float DiffYpm(int i, int j, int k) const;
   //! Second order second central differential in y
-  float Diff2Ypm(size_t i, size_t j, size_t k) const;
+  float Diff2Ypm(int i, int j, int k) const;
 
   //! First order negative differential in z
-  float DiffZm(size_t i, size_t j, size_t k) const;
+  float DiffZm(int i, int j, int k) const;
   //! First order positive differential in z
-  float DiffZp(size_t i, size_t j, size_t k) const;
+  float DiffZp(int i, int j, int k) const;
   //! Second order central differential in z
-  float DiffZpm(size_t i, size_t j, size_t k) const;
+  float DiffZpm(int i, int j, int k) const;
   //! Second order second central differential in z
-  float Diff2Zpm(size_t i, size_t j, size_t k) const;
+  float Diff2Zpm(int i, int j, int k) const;
 
   //! First order mixed differential in x,y
-  float Diff2XYpm(size_t i, size_t j, size_t k) const;
+  float Diff2XYpm(int i, int j, int k) const;
   //! First order mixed differential in y,z
-  float Diff2YZpm(size_t i, size_t j, size_t k) const;
+  float Diff2YZpm(int i, int j, int k) const;
   //! First order mixed differential in z,x
-  float Diff2ZXpm(size_t i, size_t j, size_t k) const;
+  float Diff2ZXpm(int i, int j, int k) const;
 
   float WENO(float v1, float v2, float v3, float v4, float v5) const;
 

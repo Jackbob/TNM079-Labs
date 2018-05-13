@@ -61,7 +61,12 @@ public:
   // Compute speed function for erosion / dialation
   virtual float Evaluate(size_t i, size_t j, size_t k) {
     // Compute the rate of change (dphi/dt)
-    return 0;
+
+	  float ddx2, ddy2, ddz2;
+	  float a = mF / abs(mF); // determines sign of F
+	  Godunov(i, j, k, a, ddx2, ddy2, ddz2);
+    
+	  return (-1 * mF) * (std::sqrt(ddx2 + ddy2 + ddz2));
   }
 };
 

@@ -13,6 +13,16 @@ BaseFrameMain::BaseFrameMain(wxWindow *parent, wxWindowID id,
                              const wxString &title, const wxPoint &pos,
                              const wxSize &size, long style)
     : wxFrame(parent, id, title, pos, size, style) {
+
+  int textboxSize1, textboxSize2;
+#ifdef __linux__
+  textboxSize1 = 90;
+  textboxSize2 = 120;
+#else
+  textboxSize1 = 40;
+  textboxSize2 = 60;
+#endif
+  
   this->SetSizeHints(wxDefaultSize, wxDefaultSize);
 
   m_menubar2 = new wxMenuBar(0);
@@ -278,7 +288,7 @@ BaseFrameMain::BaseFrameMain(wxWindow *parent, wxWindowID id,
   bSizer141->Add(m_staticText16, 0, wxALIGN_CENTER_VERTICAL | wxALL, 5);
 
   mFluidTime = new wxTextCtrl(mPanelFluid, wxID_ANY, wxT("0"),
-                              wxDefaultPosition, wxSize(40, -1), 0);
+                              wxDefaultPosition, wxSize(textboxSize1, -1), 0);
   bSizer141->Add(mFluidTime, 0, wxALL, 5);
 
   m_staticText17 = new wxStaticText(mPanelFluid, wxID_ANY, wxT("Iterations"),
@@ -287,7 +297,7 @@ BaseFrameMain::BaseFrameMain(wxWindow *parent, wxWindowID id,
   bSizer141->Add(m_staticText17, 0, wxALIGN_CENTER_VERTICAL | wxALL, 5);
 
   mFluidIterations = new wxTextCtrl(mPanelFluid, wxID_ANY, wxT("1"),
-                                    wxDefaultPosition, wxSize(40, -1), 0);
+                                    wxDefaultPosition, wxSize(textboxSize1, -1), 0);
   bSizer141->Add(mFluidIterations, 0, wxALL, 5);
 
   sbSizer8->Add(bSizer141, 0, 0, 5);
@@ -350,7 +360,7 @@ BaseFrameMain::BaseFrameMain(wxWindow *parent, wxWindowID id,
 
   m_DecimationTargetTxtBox =
       new wxTextCtrl(mPanelDecimation, wxID_ANY, wxEmptyString,
-                     wxDefaultPosition, wxSize(60, -1), 0);
+                     wxDefaultPosition, wxSize(textboxSize2, -1), 0);
   sbSizer7->Add(m_DecimationTargetTxtBox, 0, wxALL, 5);
 
   mPanelDecimation->SetSizer(sbSizer7);
@@ -427,7 +437,7 @@ BaseFrameMain::BaseFrameMain(wxWindow *parent, wxWindowID id,
   bSizer8->Add(m_staticText15, 0, wxALIGN_CENTER_VERTICAL | wxALL, 5);
 
   mPropagationTime = new wxTextCtrl(mPanelLevelset, wxID_ANY, wxT("0.01"),
-                                    wxDefaultPosition, wxSize(40, -1), 0);
+                                    wxDefaultPosition, wxSize(textboxSize1, -1), 0);
   bSizer8->Add(mPropagationTime, 0, wxALL, 5);
 
   m_staticText13 = new wxStaticText(mPanelLevelset, wxID_ANY, wxT("Iterations"),
@@ -436,7 +446,7 @@ BaseFrameMain::BaseFrameMain(wxWindow *parent, wxWindowID id,
   bSizer8->Add(m_staticText13, 0, wxALIGN_CENTER_VERTICAL | wxALL, 5);
 
   mLevelsetIterations = new wxTextCtrl(mPanelLevelset, wxID_ANY, wxT("1"),
-                                       wxDefaultPosition, wxSize(40, -1), 0);
+                                       wxDefaultPosition, wxSize(textboxSize1, -1), 0);
   bSizer8->Add(mLevelsetIterations, 0, wxALL, 5);
 
   sbSizer5->Add(bSizer8, 0, wxEXPAND, 5);
@@ -451,7 +461,7 @@ BaseFrameMain::BaseFrameMain(wxWindow *parent, wxWindowID id,
   bSizer14->Add(mLabelNarrowBand, 0, wxALIGN_CENTER_VERTICAL | wxALL, 5);
 
   mNarrowBandWidth = new wxTextCtrl(mPanelLevelset, wxID_ANY, wxT("16"),
-                                    wxDefaultPosition, wxSize(40, -1), 0);
+                                    wxDefaultPosition, wxSize(textboxSize1, -1), 0);
   bSizer14->Add(mNarrowBandWidth, 0, wxALL, 5);
 
   mNarrowBandButton = new wxButton(mPanelLevelset, wxID_ANY, wxT("Set width"),
@@ -481,7 +491,7 @@ BaseFrameMain::BaseFrameMain(wxWindow *parent, wxWindowID id,
   bSizer13->Add(m_staticText131, 0, wxALIGN_CENTER_VERTICAL | wxALL, 5);
 
   mMeshSampling = new wxTextCtrl(mPanelImplicit, wxID_ANY, wxT("0.05"),
-                                 wxDefaultPosition, wxSize(40, -1), 0);
+                                 wxDefaultPosition, wxSize(textboxSize1, -1), 0);
   bSizer13->Add(mMeshSampling, 0, wxALL, 5);
 
   m_button16 = new wxButton(mPanelImplicit, wxID_ANY, wxT("Resample"),
@@ -528,7 +538,7 @@ BaseFrameMain::BaseFrameMain(wxWindow *parent, wxWindowID id,
   bSizer51->Add(mBlendLabel, 0, wxALIGN_CENTER_VERTICAL | wxALL, 5);
 
   mBlendParameter = new wxTextCtrl(mPanelImplicit, wxID_ANY, wxT("10"),
-                                   wxDefaultPosition, wxSize(40, -1), 0);
+                                   wxDefaultPosition, wxSize(textboxSize1, -1), 0);
   mBlendParameter->Enable(false);
 
   bSizer51->Add(mBlendParameter, 0, wxALL, 5);
@@ -616,7 +626,7 @@ BaseFrameMain::BaseFrameMain(wxWindow *parent, wxWindowID id,
                  wxALIGN_CENTER_VERTICAL | wxALIGN_RIGHT | wxALL, 5);
 
   mMin = new wxTextCtrl(mPanelVisualization, wxID_ANY, wxEmptyString,
-                        wxDefaultPosition, wxSize(60, -1), 0);
+                        wxDefaultPosition, wxSize(textboxSize2, -1), 0);
   mMin->SetMaxLength(5);
   mMin->Enable(false);
 
@@ -629,7 +639,7 @@ BaseFrameMain::BaseFrameMain(wxWindow *parent, wxWindowID id,
                  wxALIGN_CENTER_VERTICAL | wxALIGN_RIGHT | wxALL, 5);
 
   mMax = new wxTextCtrl(mPanelVisualization, wxID_ANY, wxEmptyString,
-                        wxDefaultPosition, wxSize(60, -1), 0);
+                        wxDefaultPosition, wxSize(textboxSize2, -1), 0);
   mMax->SetMaxLength(5);
   mMax->Enable(false);
 
@@ -696,17 +706,17 @@ BaseFrameMain::BaseFrameMain(wxWindow *parent, wxWindowID id,
                 wxALIGN_CENTER_VERTICAL | wxALIGN_RIGHT | wxALL, 5);
 
   mScaleX = new wxTextCtrl(mPanelTransform, wxID_ANY, wxT("1"),
-                           wxDefaultPosition, wxSize(30, -1), 0);
+                           wxDefaultPosition, wxSize(textboxSize2, -1), 0);
   fgSizer1->Add(mScaleX, 0, wxALL, 5);
 
   mScaleY = new wxTextCtrl(mPanelTransform, wxID_ANY, wxT("1"),
-                           wxDefaultPosition, wxSize(30, -1), 0);
+                           wxDefaultPosition, wxSize(textboxSize2, -1), 0);
   mScaleY->Enable(false);
 
   fgSizer1->Add(mScaleY, 0, wxALL, 5);
 
   mScaleZ = new wxTextCtrl(mPanelTransform, wxID_ANY, wxT("1"),
-                           wxDefaultPosition, wxSize(30, -1), 0);
+                           wxDefaultPosition, wxSize(textboxSize2, -1), 0);
   mScaleZ->Enable(false);
 
   fgSizer1->Add(mScaleZ, 0, wxALL, 5);
@@ -718,15 +728,15 @@ BaseFrameMain::BaseFrameMain(wxWindow *parent, wxWindowID id,
                 wxALIGN_CENTER_VERTICAL | wxALIGN_RIGHT | wxALL, 5);
 
   mTranslateX = new wxTextCtrl(mPanelTransform, wxID_ANY, wxT("0"),
-                               wxDefaultPosition, wxSize(30, -1), 0);
+                               wxDefaultPosition, wxSize(textboxSize2, -1), 0);
   fgSizer1->Add(mTranslateX, 0, wxALL, 5);
 
   mTranslateY = new wxTextCtrl(mPanelTransform, wxID_ANY, wxT("0"),
-                               wxDefaultPosition, wxSize(30, -1), 0);
+                               wxDefaultPosition, wxSize(textboxSize2, -1), 0);
   fgSizer1->Add(mTranslateY, 0, wxALL, 5);
 
   mTranslateZ = new wxTextCtrl(mPanelTransform, wxID_ANY, wxT("0"),
-                               wxDefaultPosition, wxSize(30, -1), 0);
+                               wxDefaultPosition, wxSize(textboxSize2, -1), 0);
   fgSizer1->Add(mTranslateZ, 0, wxALL, 5);
 
   m_staticText7 = new wxStaticText(mPanelTransform, wxID_ANY, wxT("Rotate"),
@@ -736,15 +746,15 @@ BaseFrameMain::BaseFrameMain(wxWindow *parent, wxWindowID id,
                 wxALIGN_CENTER_VERTICAL | wxALIGN_RIGHT | wxALL, 5);
 
   mRotateX = new wxTextCtrl(mPanelTransform, wxID_ANY, wxT("0"),
-                            wxDefaultPosition, wxSize(30, -1), 0);
+                            wxDefaultPosition, wxSize(textboxSize2, -1), 0);
   fgSizer1->Add(mRotateX, 0, wxALL, 5);
 
   mRotateY = new wxTextCtrl(mPanelTransform, wxID_ANY, wxT("0"),
-                            wxDefaultPosition, wxSize(30, -1), 0);
+                            wxDefaultPosition, wxSize(textboxSize2, -1), 0);
   fgSizer1->Add(mRotateY, 0, wxALL, 5);
 
   mRotateZ = new wxTextCtrl(mPanelTransform, wxID_ANY, wxT("0"),
-                            wxDefaultPosition, wxSize(30, -1), 0);
+                            wxDefaultPosition, wxSize(textboxSize2, -1), 0);
   fgSizer1->Add(mRotateZ, 0, wxALL, 5);
 
   sbSizer1->Add(fgSizer1, 1, wxEXPAND, 5);

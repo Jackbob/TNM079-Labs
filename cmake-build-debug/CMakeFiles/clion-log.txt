@@ -1,6 +1,6 @@
-/home/jakob/Programs/CLion-2017.3.4/clion-2017.3.4/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/jakob/Documents/University/TNM079-ModellingAnim/TNM079-Labs
--- The C compiler identification is GNU 7.2.0
--- The CXX compiler identification is GNU 7.2.0
+/home/jakob/Programs/clion-2018.1.2/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/jakob/Documents/University/TNM079-ModellingAnim/TNM079-Labs
+-- The C compiler identification is GNU 7.3.0
+-- The CXX compiler identification is GNU 7.3.0
 -- Check for working C compiler: /usr/bin/cc
 -- Check for working C compiler: /usr/bin/cc -- works
 -- Detecting C compiler ABI info
@@ -15,10 +15,10 @@
 -- Detecting CXX compile features - done
 -- Using custom FindwxWidgets module
 -- Using unix find style
--- Found wxWidgets: -L/usr/lib/x86_64-linux-gnu;-pthread;;;-lwx_baseu-3.0;-lwx_gtk2u_core-3.0;-lwx_gtk2u_gl-3.0 (found version "3.0.3") 
+-- Found wxWidgets: -L/usr/lib/x86_64-linux-gnu;-pthread;;;-lwx_baseu-3.0;-lwx_gtk2u_core-3.0;-lwx_gtk2u_gl-3.0 (found version "3.0.4") 
 -- Found GLUT: /usr/lib/x86_64-linux-gnu/libglut.so  
 -- Found GLEW: /usr/include  
--- Found OpenGL: /usr/lib/x86_64-linux-gnu/libGL.so   
+-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/jakob/Documents/University/TNM079-ModellingAnim/TNM079-Labs/cmake-build-debug

@@ -34,7 +34,10 @@ public:
 
   virtual float ComputeTimestep() {
     // Compute and return a stable timestep
-    return 1;
+
+	float t = mLS->GetDx() / mF;
+    return t*0.9;
+
   }
 
   virtual void Propagate(float time) {
@@ -55,6 +58,7 @@ public:
     }
   }
 
+  // Compute speed function for erosion / dialation
   virtual float Evaluate(size_t i, size_t j, size_t k) {
     // Compute the rate of change (dphi/dt)
     return 0;
